@@ -59,3 +59,21 @@ footer a {
 .left-footer .text h2 {
   font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: fit-content !important;
+    flex-direction: column;
+  }
+
+  .right-footer {
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+  }
+  .left-footer {
+    max-height: 150px;
+    min-height: 150px;
+    width: 100%;
+  }
+}

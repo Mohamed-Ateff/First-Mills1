@@ -1,0 +1,482 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.Img-home {
+  width: 100%;
+  height: 100%;
+}
+.box-home-section {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+.box-home-section h1 {
+  font-weight: 600;
+  color: #fcb44a;
+  font-size: 110px;
+  line-height: 90px;
+}
+.box-home-section h2 {
+  color: white;
+  font-size: 40px;
+}
+.box-home-section p {
+  color: #bbbebc;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 15px;
+}
+.buttons-home {
+  margin-top: 60px;
+  display: flex;
+}
+.buttons-home a {
+  min-width: 215px !important;
+  padding: 15px 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 15px;
+}
+.buttons-home a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.buttons-home .donwload-pdf-home {
+  color: #163029;
+  background-color: #fcb44a;
+}
+.buttons-home .watch-vidoe-home {
+  color: #fed08f;
+  background-color: #3a4944;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons-home {
+    flex-direction: column;
+  }
+  .buttons-home a {
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+}
+
+.more-home {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.more-home img {
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+/* End Home */
+
+/* Flex text */
+.Flex-text {
+  width: 88.5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Flex-text p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.right-colum {
+  width: 48%;
+}
+.left-colum {
+  width: 48%;
+}
+
+@media screen and (max-width: 768px) {
+  .Flex-text {
+    width: 100%;
+    flex-direction: column;
+  }
+  .right-colum {
+    width: 100%;
+  }
+  .left-colum {
+    width: 100%;
+  }
+}
+
+/* Flex text Ends */
+
+.nine-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: white;
+  width: 32%;
+  padding: 22px 20px 0px 20px;
+  margin-bottom: 40px;
+}
+.card h3 {
+  font-weight: 100;
+  color: #163029;
+  font-size: 25px;
+}
+.card > #counter2 span,
+.card > .counter-container span {
+  font-size: 55px !important;
+  color: #fcb44a;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -15px;
+}
+
+.card-footer p {
+  color: #5e6863;
+}
+.card-footer #counter2 {
+  font-size: 35px;
+  color: #3a4944;
+  font-weight: 100 !important;
+}
+.card-footer #counter2 .counter-value2 {
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    background-color: white;
+    width: 100%;
+    padding: 22px 20px 0px 20px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Cards End */
+
+.ten-cards {
+  width: 89.5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+}
+.ten-card-one {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.ten-card-one img {
+  width: 75px;
+  margin-left: 30px;
+}
+.ten-card-one h6 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #163029;
+}
+.ten-card-one .counter-value2,
+.ten-card-one .counter-value3,
+.ten-card-one span {
+  font-size: 40px !important;
+  color: #fcb44a;
+  font-weight: 700;
+}
+
+.ten-card-one p {
+  color: #5e6863;
+}
+
+@media screen and (max-width: 768px) {
+  .ten-card-one {
+    width: 100%;
+  }
+}
+
+/* ten cards end */
+
+.map .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.map .container2 img {
+  width: 600px;
+}
+.map-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.map-card {
+  width: 49% !important;
+  padding: 28px 35px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.name-location-map {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name-location-map h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.name-location-map img {
+  margin-right: 10px;
+  width: 35px !important;
+  height: 35px !important;
+}
+.more-info-map {
+  margin-right: 35px;
+}
+.more-info-map h3 {
+  font-weight: 100;
+  font-size: 20px;
+}
+.more-info-map #counter2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 5px 0px;
+  line-height: 50px;
+}
+@media screen and (max-width: 768px) {
+  .map .container2 img {
+    width: 100%;
+  }
+  .map-card {
+    width: 100% !important;
+  }
+  .more-info-map h3 {
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .more-info-map p {
+    font-size: 13px;
+  }
+  .more-info-map #counter2 {
+    font-size: 28px;
+  }
+  .name-location-map h2 {
+    color: white;
+    font-size: 25px;
+  }
+}
+
+/* Map Ends */
+
+.nine-logos {
+  background-color: white;
+}
+.nine-logos .container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  margin-top: 70px;
+}
+.nine-logos .container2 .card-logos {
+  width: 32%;
+  padding: 0px 20px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.border-right-and-left {
+  border-right: 5px solid #f2f2f2;
+  border-left: 5px solid #f2f2f2;
+}
+.logo-and-number {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-and-number h3 {
+  color: #3a4944;
+  border-bottom: 6px solid #fcb44a;
+  padding: 0px 15px;
+  font-size: 35px;
+}
+.logo-and-number img {
+  width: 180px;
+  border: 3px solid #f2f2f2;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.text-logo {
+  width: 60%;
+  margin: 25px 40px 25px 25px;
+  text-align: center;
+}
+.text-logo p {
+  font-size: 17px;
+}
+
+/* End cards with logo */
+
+.twelve-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+}
+.twelve-card {
+  width: 23%;
+  height: 250px;
+  padding: 35px 35px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.twelve-card h2 {
+  font-size: 23px;
+}
+#special-twelve-card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  text-align: right !important;
+}
+#special-twelve-card p {
+  font-weight: 100 !important;
+  font-size: 28px;
+}
+.date {
+  width: 90px;
+  height: 90px;
+  border: 4px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.date h3 {
+  color: #fcb44a;
+  font-size: 45px;
+  margin-top: 3px;
+}
+.date p {
+  color: #163029;
+  font-weight: 700;
+  margin-top: -15px;
+}
+
+.twelve-card-text {
+  color: #163029;
+  font-size: 19px;
+  margin: 20px auto auto auto;
+  width: 90%;
+}
+
+/* End twelve card */
+
+.three-cards {
+}
+.title-fot-there-cards {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-fot-there-cards h2 {
+  color: #5e6863;
+}
+.cards-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 70px auto 40px auto;
+  width: 70%;
+}
+.cards-3 .one-card-3 {
+  width: 30%;
+  padding-right: 30px;
+  position: relative;
+}
+.cards-3 .one-card-3 h3 {
+  color: #3a4944;
+  font-size: 20px;
+}
+.cards-3 .one-card-3 p {
+  color: #5e6863;
+  margin-bottom: 20px;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 260px;
+}
+
+
+/* End three cards */
+
+/* baner */
+
+
+.baner{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 250px;
+}
+.baner h1{
+  font-size: 40px;
+}
