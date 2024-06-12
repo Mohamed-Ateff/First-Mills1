@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>المطاحن الاولي</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="Style/index.css" />
+    <link rel="stylesheet" href="Style/Header.css" />
+    <link rel="stylesheet" href="Style/Footer.css" />
+    <link rel="stylesheet" href="Style/hero.css" />
+    <link rel="stylesheet" href="Style/barChart.css" />
+    <link rel="stylesheet" href="Style/s1p3.css" />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-and-icon">
+        <a href="index.html" class="navbar-brand"
+          ><img src="images/Logo.png" alt=""
+        /></a>
+        <button type="button" class="navbar-toggler">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              نظرة <br />
+              عامة
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="Index.html">لمحة موجزة</a></li>
+                  <li>
+                    <a href="s1p2.html">مسيرة نمو الشركة</a>
+                  </li>
+                  <li>
+                    <a href="s1p3.html" class="active">مزايا الاستثمار</a>
+                  </li>
+                  <li><a href="#">مشاركة اصحاب المصلحة</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              التقرير <br />
+              الاستراتيجي
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">الرؤية والاستراتيجـية</a></li>
+                  <li><a href="#">نموذج العمل التجاري</a></li>
+                  <li><a href="#">نظرة عامة على السوق والقطاع</a></li>
+                  <li><a href="#">النظرة المستقبلية والتطلعات</a></li>
+                  <li><a href="#">إدارة المخاطر</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              إدارة <br />
+              الشركة
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">كلمة رئيس مجلس الإدارة </a></li>
+                  <li><a href="#">رسالة الرئيس التنفيذي</a></li>
+                  <li><a href="#">رسالة الرئيس التنفيذي للمالية</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              المراجعة <br />
+              التشغيلية
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">الأنشطة الرئيسية</a></li>
+                  <li><a href="#">منتجات الشركة</a></li>
+                  <li><a href="#">مراحل إنتاج الدقيق</a></li>
+                  <li><a href="#">التشغيل والإنتاج</a></li>
+                  <li><a href="#">مصانع الشركة</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">العملاء وشركاء النجاح</a></li>
+                  <li><a href="#">«الأولى» علامتنا التجارية المميزة</a></li>
+                  <li><a href="#">ضمان الجودة ورقابتها</a></li>
+                  <li><a href="#">مواردنا البشرية</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              الاستدامة <br />
+              والحوكمة
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">نحو مجتمع مُستدام</a></li>
+                  <li><a href="#">المسؤولية الاجتماعية</a></li>
+                  <li><a href="#">المسؤولية البيئية</a></li>
+                  <li><a href="#">معلومات المساهمين</a></li>
+                  <li><a href="#">مجلس الإدارة</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">اجتماعات مجلس الإدارة</a></li>
+                  <li><a href="#">الجمعية العامة للمساهمين</a></li>
+                  <li><a href="#">لجان الشركة وأعضائها</a></li>
+                  <li><a href="#">الإدارة التنفيذية</a></li>
+                  <li><a href="#">هيكل الملكية</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">المكــافــآت</a></li>
+                  <li><a href="#">الأحكام ودرجة الالتزام</a></li>
+                  <li><a href="#">العقوبات والجزاءات والقضايا</a></li>
+                  <li><a href="#">التعاملات مع الأطراف ذوي العلاقة</a></li>
+                  <li><a href="#"> المدفوعات النظامية</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">أسهم الخزينة</a></li>
+                  <li><a href="#">القروض</a></li>
+                  <li><a href="#">الرقابة الداخلية</a></li>
+                  <li><a href="#">إقرارات مجلس الإدارة</a></li>
+                  <li><a href="#">الأخلاقيات والامتثال التنظيمي</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              القوائم المالية <br />
+              وتطور الأداء
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="#">تطور القوائم المالية</a></li>
+                  <li><a href="#">أبرز النسب المالية</a></li>
+                  <li><a href="#">تحليل النتائج السنوية</a></li>
+                  <li>
+                    <a href="#">القوائم المالية للعام 2023 وتقرير المراجع</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <li>
+            <a href="#" class="menu-link">
+              تواصلوا <br />
+              معنا
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="menu-link">
+              مركز <br />
+              التحميل
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <img src="images/bg31.png" alt="" />
+      <div class="text-box-hero">
+        <p data-aos="fade-up" data-aos-duration="2000">نظرة عامة</p>
+        <h1 data-aos="fade-up" data-aos-duration="3000">
+          مــزايـا الاســتثــمار
+        </h1>
+      </div>
+      <div class="hero-footer">
+        <div class="Home-name">
+          <div class="page-name">نظرة عامة</div>
+          <img src="images/arrow-left.png" alt="" />
+          <div class="category-name">مــزايـا الاســتثــمار</div>
+        </div>
+        <a href="" class="Home-download-pdf">
+          <p>تـــحمــيل</p>
+          <img src="images/PDF.png" class="img-download-pdf" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Title -->
+
+      <h1 class="title">
+        تعمل المطاحن الأولى دوماً على تنمية نقاط قوتها والمزايا التنافسية، التي
+        تُتيح لها اقتناص فرص سانحة في الأسواق التي تعمل بها، لتتوافق مع رؤيتها
+        ورسالتها.
+      </h1>
+
+      <!-- Title Ends -->
+    </div>
+
+    <div class="eight-cards">
+      <div class="container2">
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>1</h1>
+            <div class="icon-div-eight">
+              <img src="images/1.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>الريادة السوقية</h2>
+            <p class="text-left-card-eight">
+              أحد أكبر مُصنعي منتجات الدقيق ومنتجات الدقيق <br class="delete" />
+              الثانوية من حيث حجم الإنتاج والمبيعات
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                الحصة السوقية في المملكة * <br class="delete" />
+                تتجاوز 30 %
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>2</h1>
+            <div class="icon-div-eight">
+              <img src="images/2.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>المواقع الاستراتيجية</h2>
+            <p class="text-left-card-eight">
+              تغطية جغرافية متميزة وواسعة لجميع مناطق المملكة
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                شركة المطاحن الوحيدة التي <br class="delete" />
+                تمتلك 4 مصانع في المملكة
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>3</h1>
+            <div class="icon-div-eight">
+              <img src="images/3.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>تنوع المنتجات</h2>
+            <p class="text-left-card-eight">
+              منتجات متنوعة تنتشر على نطاق جغرافي واسع داخل المملكة
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                تنتج الشركة 5 فئات رئيسية من المنتجات وهي (الدقيق / الأعلاف /
+                النخالة / السميد / المخاليط) والتي تتشكل في ثلاث علامات تجارية
+                (المطاحن الأولى / الأولى / نفاع) لأكثر من 50 منتجاً متنوعاً
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>4</h1>
+            <div class="icon-div-eight">
+              <img src="images/4.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>الابتكار المستمر</h2>
+            <p class="text-left-card-eight">
+              توفير منتجات رائدة ومبتكرة ذات جودة عالية في قطاعي الأغذية
+              والأعلاف
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                الشركة  الوحيدة في المملكة التي تمتلك مطحنة الديورم لإنتاج
+                السميد وبأحدث التقنيات في مصنعها بجدة
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>5</h1>
+            <div class="icon-div-eight">
+              <img src="images/5.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>الجودة العالية</h2>
+            <p class="text-left-card-eight">
+              تشكيلة منتجات تتمتع بجودة عالية تطابق أعلى المعايير العالمية
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                ضمان الجودة "أيزو" <br class="delete" />
+                5 شهادات
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>6</h1>
+            <div class="icon-div-eight">
+              <img src="images/6.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>البنية التحتية القوية</h2>
+            <p class="text-left-card-eight">
+              أصول ضخمة، وقاعدة متينة من المرافق اللوجستية والإنتاجية
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                قاعدة أصول ثابتة <br class="delete" />
+                تتجاوز 650 مليون ريال
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>7</h1>
+            <div class="icon-div-eight">
+              <img src="images/7.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>إدارة المخاطر</h2>
+            <p class="text-left-card-eight">
+              تطبيق ممارسات شاملة وصارمة وسياسة رصينة في إدارة المخاطر
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                توافق إطار عمل إدارة المخاطر مع المعايير العالمية الرائدة وأفضل
+                الممارسات في القطاع
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="one-card-eight">
+          <div class="right-card-eight">
+            <h1>8</h1>
+            <div class="icon-div-eight">
+              <img src="images/8.png" alt="" />
+            </div>
+          </div>
+          <div class="left-card-eight">
+            <h2>الخبرة والكفاءة</h2>
+            <p class="text-left-card-eight">
+              هيكل تنظيمي وإداري يتمتع بالتناغم بالكفاءة والخبرة المهنية الواسعة
+            </p>
+            <div class="quote">
+              <img src="images/quatation.png" alt="" />
+              <p>
+                خبرة إجمالية لفريق العمل التنفيذي <br class="delete" />
+                تفوق الـ 200 عام
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="margin-for-footer">
+      <a href="" class="right-footer">
+        <div class="icon"><img src="images/right-qrr.png" alt="" /></div>
+        <div class="text">
+          <p>الــســـابق</p>
+          <h2>الصفحة السابقة</h2>
+        </div>
+      </a>
+      <a href="" class="left-footer">
+        <div class="text">
+          <p>الـــــتالــي</p>
+          <h2>الصفحة التالية</h2>
+        </div>
+        <div class="icon"><img src="images/left-qrr.png" alt="" /></div>
+      </a>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: true,
+        // Other AOS options
+      });
+    </script>
+
+    <!--jQuery-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="JS/counter.js"></script>
+  </body>
+</html>
