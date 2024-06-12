@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 768px) {
   .Flex-text {
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
   }
   .right-colum {
@@ -359,6 +359,12 @@
   font-size: 17px;
 }
 
+@media screen and (max-width: 768px) {
+  .nine-logos .container2 .card-logos {
+    width: 100%;
+  }
+}
+
 /* End cards with logo */
 
 .twelve-cards {
@@ -419,6 +425,12 @@
   width: 90%;
 }
 
+@media screen and (max-width: 768px) {
+  .twelve-card {
+    width: 100%;
+  }
+}
+
 /* End twelve card */
 
 .three-cards {
@@ -462,13 +474,22 @@
   height: 260px;
 }
 
+@media screen and (max-width: 768px) {
+  .cards-3 {
+    flex-flow: wrap;
+  }
+  .cards-3 .one-card-3 {
+    width: 100%;
+    margin: 0px auto 40px auto;
+    padding-right: 30px;
+  }
+}
 
 /* End three cards */
 
 /* baner */
 
-
-.baner{
+.baner {
   width: 100%;
   position: relative;
   display: flex;
@@ -476,7 +497,34 @@
   align-items: center;
   flex-direction: column;
   height: 250px;
+  /* margin-bottom: 100px; */
+  text-align: center;
 }
-.baner h1{
+.baner h1 {
   font-size: 40px;
+}
+.baner img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 140px;
+  height: 350px;
+}
+.margin-top-50 {
+  margin-top: 80px;
+}
+.margin-bottom-50 {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .baner img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 20px;
+    height: 300px;
+  }
 }
