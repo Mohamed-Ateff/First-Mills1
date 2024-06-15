@@ -135,7 +135,7 @@
   align-items: center;
 }
 .full-width-one-chart .chart {
-  margin: 70px 30px 0px 30px;
+  margin: 70px 0px 0px 0px;
 }
 .full-width-one-chart .progress-bar {
   width: 45px;

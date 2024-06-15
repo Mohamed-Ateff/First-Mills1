@@ -3,7 +3,6 @@
   height: 87vh;
   margin-top: 100px;
   position: relative;
-  background: linear-gradient(285.2deg, #fcb44a 41.68%, #ffe5c3 89.25%);
 }
 .hero img {
   width: 100%;
@@ -27,14 +26,14 @@
 
 .text-box-hero p {
   color: white;
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 300 !important;
+  font-size: 33px;
 }
 
 .text-box-hero h1 {
   color: white;
   font-weight: 700 !important;
-  font-size: 70px;
+  font-size: 72px;
   margin-top: 10px;
   text-align: center;
 }

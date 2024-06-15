@@ -3,19 +3,19 @@
   src: url("../Assests/Font.ttf") format("woff"),
     /* Modern browsers */ url("../Assests/Font.ttf") format("truetype"); /* Fallback for older browsers */
 }
-body{
+body {
 }
 * {
   font-family: "MyFont";
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  }
+}
 body {
   background-color: #f7f7f7;
   line-height: 1.4;
-  }
-  a {
+}
+a {
   color: #000;
   text-decoration: none;
 }
@@ -55,8 +55,7 @@ ul li {
   width: 88.5%;
   font-weight: 100 !important;
   margin: 30px auto;
-  font-size: 43px;
-  font-size: 43px;
+  font-size: 42px;
   text-align: justify;
 }
 
@@ -90,3 +89,60 @@ ul li {
 }
 
 /* text with border right Ends */
+
+/* Flex text */
+.Flex-text {
+  width: 88.5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Flex-text p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.Flex-text li {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.right-colum {
+  width: 48%;
+}
+.left-colum {
+  width: 48%;
+}
+
+.Flex-text .circle {
+  min-width: 6px;
+  min-height: 6px;
+  max-width: 6px;
+  max-height: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 500px;
+  background-color: black;
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+.flex {
+  display: flex !important;
+}
+
+@media screen and (max-width: 768px) {
+  .Flex-text {
+    /* width: 100%; */
+    flex-direction: column;
+  }
+  .right-colum {
+    width: 100%;
+  }
+  .left-colum {
+    width: 100%;
+  }
+}
+
+/* Flex text Ends */

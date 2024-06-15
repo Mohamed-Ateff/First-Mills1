@@ -94,40 +94,6 @@
 
 /* End Home */
 
-/* Flex text */
-.Flex-text {
-  width: 88.5%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.Flex-text p {
-  text-align: justify;
-  margin-bottom: 20px;
-  font-size: 21px;
-}
-.right-colum {
-  width: 48%;
-}
-.left-colum {
-  width: 48%;
-}
-
-@media screen and (max-width: 768px) {
-  .Flex-text {
-    /* width: 100%; */
-    flex-direction: column;
-  }
-  .right-colum {
-    width: 100%;
-  }
-  .left-colum {
-    width: 100%;
-  }
-}
-
-/* Flex text Ends */
 
 .nine-cards {
   width: 100%;

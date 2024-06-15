@@ -1,0 +1,72 @@
+.title-for-three-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.title-for-three-cards h1 {
+  color: #163029;
+}
+
+.title-for-three-cards p {
+  color: #163029;
+  margin-top: 5px;
+}
+
+.three-cards .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: right;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+.card-from-three {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: right;
+  flex-direction: column;
+}
+.card-from-three img {
+  width: 90px;
+  height: 90px;
+}
+
+.card-from-three .border-color {
+  width: 200px;
+  height: 7px;
+  margin: 15px 0px 10px 0px;
+}
+
+.contain-circle-and-li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: blue; */
+  width: 100%;
+  margin: 3px 0px;
+}
+.circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  background-color: #163029;
+  margin-left: 10px;
+}
+
+.card-from-three li {
+  line-height: 30px;
+  width: 70%;
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .card-from-three {
+    width: 100%;
+    margin-bottom: 50px;
+    /* background-color: red; */
+    padding-right: 10px;
+  }
+}

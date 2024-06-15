@@ -1,0 +1,60 @@
+.title-with-bg {
+  padding-bottom: 50px;
+  width: 100%;
+  margin-top: 70px;
+}
+.title-with-bg .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-with-bg .container .number h1 {
+  font-size: 50px !important  ;
+  position: relative;
+  top: 5px;
+}
+
+.container .title-for-three-cards {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.there-cards .container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.there-cards .container .card-from-three {
+  width: 30%;
+  padding: 25px;
+  background-color: white;
+}
+.num-and-text {
+  display: flex;
+}
+.card-from-three h5 {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.num-and-text h1 {
+  margin-left: 10px;
+  font-size: 45px;
+  color: #fcb44a;
+}
+.card-from-three p {
+  font-size: 12px;
+  color: #5e6863;
+}
+@media screen and (max-width: 768px) {
+  .title-with-bg .container .number h1 {
+    font-size: 25px !important;
+  }
+  .there-cards .container .card-from-three {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
