@@ -1,0 +1,111 @@
+.Certificates .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.none {
+  visibility: hidden;
+}
+
+.card-from-seven {
+  width: 24%;
+  padding: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.icon-for-card {
+  width: 120px;
+  height: 120px;
+  background-color: #f7f7f7;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-for-card img {
+  width: 70px;
+  height: 70px;
+}
+.card-from-seven h4 {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .none {
+    display: none;
+  }
+  .card-from-seven {
+    width: 100%;
+  }
+}
+
+/* Certificates ends  */
+
+.six-cards .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-from-six {
+  width: 32%;
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.card-from-six h1 {
+  color: #fcb44a;
+  font-size: 55px;
+  margin-bottom: 2px;
+}
+.card-from-six p {
+  font-size: 18px;
+}
+
+/* Three cards */
+
+.three-cards .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: red;
+}
+.card-from-three {
+  position: relative;
+  padding: 35px 60px;
+  background-color: white;
+}
+.card-from-three::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 8px;
+  height: 75px;
+  background-color: #fcb44a;
+}
+
+.title-for-card-three{
+  font-size: 25px;
+}
+.flex-num-and-text{
+  display: flex;
+}
+
+#width-for-card1 {
+  width: 33%;
+}
+#width-for-card2 {
+  width: 66%;
+}
+
+/* Three cards End */

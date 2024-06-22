@@ -1,0 +1,109 @@
+.pie-chart-diff-style {
+  background-color: white;
+  padding: 40px 0px 90px 0px;
+  margin-top: 60px;
+}
+.pie-chart-diff-style .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pie {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.text-for-pie {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+  /* background-color: red; */
+  padding: 0px 30px;
+}
+.text-for-pie h1 {
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.num-and-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.num-and-text .num {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #fcb44a;
+  font-weight: bold;
+}
+.num-and-text .text {
+  color: #163029;
+  font-size: 20px;
+}
+
+.title-for-two-cards {
+  margin: 30px auto auto auto;
+  width: 85%;
+}
+.title-for-two-cards h2 {
+  font-size: 28px;
+}
+
+.goals .container {
+  display: flex;
+  width: 84%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10px !important;
+}
+
+.goal-card {
+  width: 50%;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.goal-card::before {
+  content: "";
+  position: absolute;
+  top: 49%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  width: 7px;
+  height: 70%;
+  background-color: white;
+}
+
+.goal-card .num-and-text {
+  margin-bottom: 20px;
+}
+.goal-card .num-and-text:last-child {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .pie {
+    width: 100%;
+  }
+  .text-for-pie {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .goal-card {
+    width: 100%;
+    padding: 40px;
+  }
+  
+}
