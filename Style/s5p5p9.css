@@ -1,0 +1,226 @@
+.container-for-card-and-info {
+  margin-bottom: 50px;
+}
+.contain-one-card {
+  position: relative;
+}
+.cv-card {
+  width: 100%;
+  padding: 70px 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+.img-and-title {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.img-with-border {
+  width: 250px;
+  height: 250px;
+  border-radius: 500px;
+  overflow: hidden;
+  border: 10px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-with-border img {
+  height: 100%;
+  width: 100%;
+}
+
+.title-and-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.title-and-position h1 {
+  color: #163029;
+}
+
+.title-and-position p {
+  margin-top: 3px;
+  color: #5e6863;
+  font-size: 19px;
+}
+
+.more-info-for-cv {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: blue; */
+  padding: 0px 30px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.border-for-more-info-for-cv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 85px;
+}
+
+.flex-text-cv {
+  display: flex;
+  margin-bottom: 20px;
+}
+.flex-text-cv:last-child {
+  flex-direction: column;
+}
+
+.flex-text-cv h4 {
+  font-size: 20px;
+  margin-left: 5px;
+  color: #163029;
+}
+.flex-text-cv p {
+  font-size: 20px;
+  color: #163029;
+}
+.last-child {
+  margin-top: 15px;
+}
+
+/* End CV */
+
+.toggle-div {
+  width: 100%;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.title-for-toggle-div {
+  margin-right: 65px;
+  margin-bottom: 35px;
+}
+
+.toggle-div.show {
+  display: block;
+  max-height: fit-content; /* Adjust based on the content height */
+}
+
+.toggle-button {
+  display: inline-block;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 13%;
+  left: 6%;
+  padding: 13px 40px;
+  font-weight: 600;
+  background-color: #ebebeb;
+  color: #163029;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.toggle-button.active {
+  background-color: #163029;
+  color: #fcb44a;
+}
+
+.toggle-button {
+}
+
+.toggle-div .Flex-text .right-colum .flex p {
+  text-align: initial;
+}
+.toggle-div .Flex-text .left-colum .flex p {
+  text-align: initial;
+}
+
+.section-in-toggle-div {
+  padding: 50px 50px;
+}
+
+@media (max-width: 768px) {
+  .cv-card {
+    flex-direction: column;
+    padding: 50px 30px 100px 30px;
+  }
+  .img-and-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title-and-position {
+    margin-top: 20px;
+  }
+  .title-and-position h1 {
+    font-size: 23px;
+  }
+
+  .title-and-position p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .more-info-for-cv {
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 20px;
+  }
+  .flex-text-cv h4 {
+    font-size: 17px;
+    margin-left: 5px;
+    color: #163029;
+  }
+  .flex-text-cv p {
+    font-size: 17px;
+    color: #163029;
+  }
+  .last-child {
+    margin-top: 15px;
+  }
+
+  .toggle-button {
+    display: inline-block;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 13px 40px;
+    font-weight: 600;
+    background-color: #ebebeb;
+    color: #163029;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+
+  .title-for-toggle-div {
+    margin-right: 25px;
+    margin-bottom: 35px;
+  }
+
+  .section-in-toggle-div {
+    padding: 50px 10px;
+  }
+  .section-in-toggle-div p {
+    font-size: 18px;
+  }
+}

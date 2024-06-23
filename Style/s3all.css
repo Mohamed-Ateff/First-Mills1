@@ -78,7 +78,6 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-
   position: relative;
 }
 .text-for-page p {
@@ -97,6 +96,7 @@
 /* Banner */
 
 .banner-for-man .container {
+  padding-right: 30px;
 }
 .banner-for-man .container h1 {
   text-align: right !important;
