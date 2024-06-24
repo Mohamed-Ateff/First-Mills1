@@ -1,0 +1,187 @@
+.four-tables .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-for-table {
+  margin-bottom: 50px;
+  width: 48%;
+  /* padding: 20px; */
+  /* background-color: blue; */
+}
+.title-for-a-one-table {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title-for-a-one-table .number-for-table {
+  line-height: 45px;
+  padding: 0px 10px !important;
+  border-bottom: 7px solid #fcb44a;
+  font-size: 40px;
+  color: #3a4944;
+  margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .card-for-table {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .title-for-a-one-table {
+    margin-bottom: 20px;
+  }
+  .title-for-tables {
+    font-size: 18px;
+  }
+  .title-for-a-one-table .number-for-table {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+  }
+}
+
+/* Table */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0;
+  font-size: 16pt;
+}
+.table23 {
+  td {
+    color: #163029;
+  }
+  thead {
+    th {
+      background-color: #3a4944;
+      color: #fff;
+      padding: 30px;
+      letter-spacing: 1px;
+    }
+  }
+
+  td {
+    text-align: right;
+    border-bottom: 4px solid #f7f7f7;
+    background-color: white;
+  }
+
+  td span {
+    display: block;
+    color: white;
+    font-size: 14pt;
+    padding-top: 5px;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  tr {
+    td,
+    th {
+      text-align: right;
+      color: #fcb44a;
+      background-color: #163029;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 30px 40px;
+      width: 50%;
+      font-size: 18px;
+    }
+    th:nth-child(2) {
+      background-color: #3a4944;
+    }
+    td:nth-child(1) {
+      color: white;
+      border: 0;
+    }
+    td:nth-child(2) {
+      color: #163029;
+      background-color: white;
+    }
+  }
+
+  tr:last-child td {
+    border-bottom: 0 !important;
+  }
+}
+
+body[dir="rtl"] .table23 {
+  text-align: right;
+}
+
+body[dir="ltr"] .table23 {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    margin: 1px 0 !important;
+  }
+
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table23 {
+    thead th {
+      padding: 10px;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 10px 7px;
+    }
+    td span {
+      font-size: 1.7vw;
+      padding-top: 2px;
+    }
+
+    tr {
+      td {
+        font-size: 2vw !important;
+      }
+    }
+    tr {
+      th,
+      td {
+        letter-spacing: 0 !important;
+      }
+    }
+  }
+  body {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .table23 {
+    td {
+      padding: 10px !important;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 5px;
+    }
+    tr td:nth-child(1),
+    tr th:nth-child(1) {
+      padding: 10px !important;
+    }
+  }
+}
