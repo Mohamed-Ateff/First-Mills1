@@ -1,0 +1,161 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0;
+  font-size: 16pt;
+}
+.table19 {
+  thead {
+    th {
+      background-color: #3a4944;
+      color: #fff;
+      border: 0;
+      padding: 30px 18px;
+      letter-spacing: 1px;
+      font-size: 15px;
+    }
+  }
+
+  td {
+    border-bottom: 4px solid #f7f7f7;
+    background-color: white;
+  }
+
+  td span {
+    display: block;
+    color: white;
+    font-size: 14pt;
+    padding-top: 5px;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  tr {
+    td:nth-child(1),
+    th:nth-child(1) {
+      color: #fcb44a;
+      background-color: #163029;
+      border: 0;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 40px 30px;
+      width: 25%;
+      font-size: 20px;
+      text-align: right;
+    }
+  }
+  tbody {
+    tr {
+      td:nth-child(2),
+      td:nth-child(3),
+      td:nth-child(4),
+      td:nth-child(5) {
+        color: #fcb44a;
+        font-weight: 700;
+        font-size: 22pt;
+      }
+    }
+  }
+  tr:last-child td {
+    border-bottom: 0 !important;
+  }
+}
+
+body[dir="rtl"] .table19 {
+  th:nth-child(1),
+  td:nth-child(1) {
+    text-align: right;
+  }
+}
+
+body[dir="ltr"] .table19 {
+  th:nth-child(1),
+  td:nth-child(1) {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    margin: 1px 0 !important;
+  }
+
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table19 {
+    thead th {
+      padding: 7px;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 10px 7px;
+    }
+    td span {
+      font-size: 1.7vw;
+      padding-top: 2px;
+    }
+    tr {
+      th,
+      td {
+        letter-spacing: 0 !important;
+      }
+    }
+    tbody {
+      tr {
+        td:nth-child(2),
+        td:nth-child(3),
+        td:nth-child(4),
+        td:nth-child(5) {
+          font-size: 3vw;
+        }
+      }
+    }
+  }
+  body {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .table19 {
+    td {
+      padding: 10px 2px !important;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 5px;
+    }
+    tr td:nth-child(1),
+    tr th:nth-child(1) {
+      padding: 7px !important;
+    }
+    tbody {
+      tr {
+        td:nth-child(2),
+        td:nth-child(3),
+        td:nth-child(4),
+        td:nth-child(5) {
+          color: #fcb44a;
+          font-weight: 700;
+          font-size: 3vw;
+        }
+      }
+    }
+  }
+}
