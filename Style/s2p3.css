@@ -1,0 +1,293 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  font-size: 16pt;
+}
+.table2 {
+  td {
+    color: #163029;
+  }
+  thead {
+    th {
+      background-color: #3a4944;
+      color: #fff;
+      border: 0;
+      padding: 30px;
+      letter-spacing: 1px;
+    }
+  }
+
+  td {
+    border-bottom: 4px solid #f7f7f7;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  tr {
+    td:nth-child(1),
+    th:nth-child(1) {
+      text-align: right;
+      color: #fcb44a;
+      background-color: #163029;
+      border: 0;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 40px;
+      width: 15%;
+    }
+  }
+  tr:last-child td {
+    border-bottom: 0 !important;
+  }
+}
+
+body[dir="rtl"] .table2 {
+  th:nth-child(1),
+  td:nth-child(1) {
+    text-align: right;
+  }
+}
+
+body[dir="ltr"] .table2 {
+  th,
+  td {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    margin: 1px 0 !important;
+  }
+
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table2 {
+    thead th {
+      padding: 10px;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 10px 7px;
+    }
+    tr {
+      th,
+      td {
+        letter-spacing: 0 !important;
+      }
+    }
+  }
+  body {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table2 {
+    td {
+      padding: 10px 2px !important;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 5px;
+    }
+    tr td:nth-child(1),
+    tr th:nth-child(1) {
+      padding: 10px !important;
+    }
+  }
+}
+
+.bar-chart-and-cards .container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.bar-chart-and-title {
+  width: 60%;
+}
+.title-and-cards {
+  width: 40%;
+}
+.title-and-cards .title-for-cards {
+  font-size: 27px;
+  color: #3a4944;
+  padding-right: 20px;
+  border-right: 8px solid #fcb44a;
+  margin-bottom: 10px;
+}
+.card-beside-bar-chart {
+  background-color: #f2f2f2;
+  padding: 35px;
+  margin-top: 25px;
+}
+.flex-num-and-text {
+  display: flex;
+}
+.num1 {
+  font-size: 23px;
+  color: #fcb44a;
+  line-height: 65px;
+}
+.num2 {
+  color: #5e6863;
+  font-size: 30px;
+  margin-top: 18px;
+  font-weight: 100;
+}
+.num2 p {
+  margin-left: 10px;
+}
+.text-for-card-b-chart {
+  font-size: 23px;
+  color: #163029;
+  font-weight: 400;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  font-size: 16pt;
+}
+.table3 {
+  td {
+    color: #163029;
+  }
+  thead {
+    th {
+      background-color: #3a4944;
+      color: #fff;
+      border: 0;
+      padding: 30px;
+      letter-spacing: 1px;
+    }
+  }
+
+  td {
+    border-bottom: 4px solid #f7f7f7;
+    background-color: white;
+    text-align: center;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  tr {
+    td:nth-child(1),
+    th:nth-child(1) {
+      color: #fcb44a;
+      background-color: #163029;
+      border: 0;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 40px;
+      width: 15%;
+      text-align: right;
+    }
+  }
+  tr:last-child td {
+    border-bottom: 0 !important;
+  }
+}
+
+body[dir="rtl"] .table3 {
+  th:nth-child(1),
+  td:nth-child(1) {
+    text-align: right;
+  }
+}
+
+body[dir="ltr"] .table3 {
+  th:nth-child(1),
+  td:nth-child(1) {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    margin: 1px 0 !important;
+  }
+
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table3 {
+    thead th {
+      padding: 10px;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 10px 7px;
+    }
+    tr {
+      th,
+      td {
+        letter-spacing: 0 !important;
+      }
+    }
+  }
+  body {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table3 {
+    td {
+      padding: 10px 2px !important;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 5px;
+    }
+    tr td:nth-child(1),
+    tr th:nth-child(1) {
+      padding: 10px !important;
+    }
+  }
+}

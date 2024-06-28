@@ -84,6 +84,10 @@
   color: #163029;
 }
 .progress-date {
+  justify-content: center;
+  display: flex;
+  /* background: red; */
+  min-width: 200px !important;
   position: absolute;
   bottom: -35px;
   left: 50%;

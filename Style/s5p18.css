@@ -1,0 +1,41 @@
+.six-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.card-from-six {
+  margin-bottom: 30px;
+  width: 32%;
+  padding: 20px 50px;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+}
+.card-from-six .number {
+  line-height: 20px;
+  padding: 10px 20px;
+  border-bottom: 8px solid #fcb44a;
+  color: #3a4944;
+  font-size: 40px;
+}
+
+.card-from-six .title-for-card-from-six {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.card-from-six p {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-from-six {
+    width: 100%;
+  }
+}

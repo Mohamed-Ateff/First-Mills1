@@ -25,6 +25,7 @@ ul li {
 .container {
   padding-top: 50px;
   width: 95%;
+  /* background-color: red; */
   margin: auto;
 }
 .container2 {

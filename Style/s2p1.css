@@ -1,0 +1,392 @@
+@media (max-width: 768px) {
+    .container{
+        overflow: hidden;
+    }
+}
+.three-cards .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.three-cards .container .one-card-from-three {
+  width: 32%;
+  min-height: 505px;
+  padding: 65px 50px;
+}
+.three-cards .container .one-card-from-three img {
+  width: 85px;
+  height: 85px;
+}
+.three-cards .container .one-card-from-three h1 {
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+.three-cards .container .one-card-from-three p {
+  margin-top: 20px;
+  font-size: 19px;
+  width: 90%;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.card1 {
+  background-color: #163029;
+}
+.card1 h1 {
+  color: #fcb44a;
+}
+
+.card1 p {
+  color: white;
+}
+.card2 {
+  background-color: #fcb44a;
+}
+.card2 h1 {
+  color: #163029;
+}
+
+.card2 p {
+  color: #163029;
+}
+.card3 {
+  background-color: #3a4944;
+}
+.card3 h1 {
+  color: #ffffff;
+}
+
+.card3 p {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .three-cards .container .one-card-from-three {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .three-cards .container .one-card-from-three:last-child {
+    margin-bottom: 0px;
+  }
+  .three-cards .container .one-card-from-three p {
+    width: 100%;
+  }
+}
+
+/* End 3 cards */
+
+/* titile */
+
+.title-with-bg .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .title-with-bg .container {
+    flex-direction: column;
+  }
+}
+
+/* titile Ends */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  text-align: right;
+  font-size: 13pt;
+  table-layout: fixed;
+}
+
+table li {
+  list-style-type: disc;
+}
+
+.table1 {
+  td {
+    color: #163029;
+  }
+  thead {
+    th {
+      background-color: #3a4944;
+      border-color: #3a4944;
+      color: #fff;
+      border: 0;
+      padding: 40px 30px;
+      letter-spacing: 1px;
+    }
+  }
+
+  th,
+  td {
+    padding: 15px 30px 30px 20px;
+    border-bottom: 4px solid #f7f7f7;
+    background-color: white;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  th {
+    font-size: 16pt;
+    font-weight: bold;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+    margin-block-start: 0;
+  }
+
+  ul li {
+    margin: 5px 0;
+  }
+
+  ul li::marker {
+    font-size: 11px;
+  }
+
+  tr {
+    td:nth-child(1),
+    th:nth-child(1) {
+      font-size: 16pt;
+      color: #fcb44a;
+      background-color: #163029;
+      border: 0;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 35px;
+    }
+  }
+  tr:last-child td {
+    border-bottom: 0 !important;
+  }
+}
+
+body[dir="rtl"] .table1 {
+  th,
+  td {
+    text-align: right;
+  }
+}
+
+body[dir="ltr"] .table1 {
+  th,
+  td {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    margin: 1px 0 !important;
+  }
+
+  table {
+    font-size: 2vw !important;
+  }
+  .table1 {
+    thead th {
+      padding: 10px;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 10px 7px;
+    }
+    tr {
+      th,
+      td {
+        letter-spacing: 0 !important;
+      }
+    }
+  }
+  body {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    font-size: 2vw !important;
+  }
+
+  .table1 {
+    td {
+      padding: 10px 2px !important;
+    }
+
+    tr td:nth-child(1),
+    tr th:nth-child(1),
+    th {
+      font-size: 2vw !important;
+      padding: 10px 5px !important;
+    }
+    tbody {
+      tr:nth-child(1) td {
+        padding: 10px 7px !important;
+      }
+    }
+    tr td:nth-child(1),
+    tr th:nth-child(1) {
+      padding: 10px !important;
+    }
+  }
+}
+
+.two-charts .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pie-chart-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.five-pie-charts {
+  margin-top: 100px;
+  background-color: #163029;
+}
+
+.five-pie-charts .container {
+  padding: 50px 0px 40px 0px !important;
+  margin-top: 100px;
+  background-color: #163029;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pie-chart-card {
+  width: 18%;
+  /* background-color: red; */
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative !important;
+}
+.date-for-pie {
+  position: absolute;
+  bottom: -34%;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  width: 100%;
+  font-size: 19px;
+}
+
+canvas {
+  display: none;
+}
+
+#chart canvas {
+  display: block;
+}
+
+.skill-item {
+  position: relative;
+  max-width: 500px !important;
+  max-height: 500px !important;
+  min-width: 210px !important;
+  min-height: 210px !important;
+  border-radius: 5000px;
+  width: 100%;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-container {
+  position: relative !important;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+}
+
+.skill-item .chart,
+.skill-item .chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.skill-item .chart:before {
+  content: "";
+  width: 0;
+  height: 100%;
+}
+
+.skill-item .chart:before,
+.skill-item .percent {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.skill-item .percent {
+  position: relative;
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 900;
+  z-index: 2;
+}
+
+.skill-item .percent:after {
+  content: attr(data-after);
+  font-size: 20px;
+}
+
+.number-for-chart .counter-container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  margin-top: 10px;
+}
+.number-for-chart .counter-container3 span {
+  font-size: 40px;
+  color: #fcb44a;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .pie-chart-card {
+    width: 100%;
+    /* background-color: red; */
+    padding-bottom: 50px;
+    margin: 20px 0px;
+  }
+  .date-for-pie {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: blue; */
+    width: 100%;
+    font-size: 19px;
+  }
+}

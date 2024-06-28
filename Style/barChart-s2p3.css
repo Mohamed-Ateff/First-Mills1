@@ -1,0 +1,65 @@
+.chart {
+  background-color: #f2f2f2;
+  /* background-color: seagreen; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+  width: 82%;
+  padding: 42px 0px;
+  border-left: 2px solid #d8d8d7;
+}
+
+.title-bar-chart {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.progress-bar {
+  width: 60%;
+  height: 43px;
+  margin: 3px 0px;
+  position: relative;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 1s ease-in-out;
+}
+
+.progress-value {
+  /* background-color: tomato; */
+  position: absolute;
+  right: -120px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+  color: #163029;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  /* background: beige;  */
+  min-width: 110px !important;
+}
+.progress-date {
+  justify-content: center;
+  display: flex;
+  min-width: 110px !important;
+  text-align: right;
+  position: absolute;
+  left: -135px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 15px;
+  font-weight: 900;
+}

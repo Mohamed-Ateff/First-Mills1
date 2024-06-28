@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>المطاحن الاولي</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="Style/index.css" />
+    <link rel="stylesheet" href="Style/Header.css" />
+    <link rel="stylesheet" href="Style/Footer.css" />
+    <link rel="stylesheet" href="Style/hero.css" />
+    <link rel="stylesheet" href="Style/barChart.css" />
+    <link rel="stylesheet" href="Style/s2p1.css" />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-and-icon">
+        <a href="index.html" class="navbar-brand"
+          ><img src="images/Logo.png" alt=""
+        /></a>
+        <button type="button" class="navbar-toggler">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              نظرة <br />
+              عامة
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="Index.html">لمحة موجزة</a></li>
+                  <li><a href="s1p2.html">مسيرة نمو الشركة</a></li>
+                  <li>
+                    <a href="s1p3.html">مزايا الاستثمار</a>
+                  </li>
+                  <li>
+                    <a href="s1p4.html">مشاركة اصحاب المصلحة</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              التقرير <br />
+              الاستراتيجي
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li>
+                    <a href="s2p1.html" class="active">الرؤية والاستراتيجـية</a>
+                  </li>
+                  <li><a href="s2p2.html">نموذج العمل التجاري</a></li>
+                  <li><a href="s2p3.html">نظرة عامة على السوق والقطاع</a></li>
+                  <li><a href="s2p4.html">النظرة المستقبلية والتطلعات</a></li>
+                  <li><a href="s2p5.html">إدارة المخاطر</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              إدارة <br />
+              الشركة
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s3p1.html">كلمة رئيس مجلس الإدارة </a></li>
+                  <li><a href="s3p2.html">رسالة الرئيس التنفيذي</a></li>
+                  <li><a href="s3p3.html">رسالة الرئيس التنفيذي للمالية</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              المراجعة <br />
+              التشغيلية
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s4p1.html">الأنشطة الرئيسية</a></li>
+                  <li><a href="s4p2.html">منتجات الشركة</a></li>
+                  <li><a href="s4p3.html">مراحل إنتاج الدقيق</a></li>
+                  <li><a href="s4p4.html">التشغيل والإنتاج</a></li>
+                  <li><a href="s4p5.html">مصانع الشركة</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s4p6.html">العملاء وشركاء النجاح</a></li>
+                  <li>
+                    <a href="s4p7.html">«الأولى» علامتنا التجارية المميزة</a>
+                  </li>
+                  <li><a href="s4p8.html">ضمان الجودة ورقابتها</a></li>
+                  <li><a href="s4p9.html">مواردنا البشرية</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              الاستدامة <br />
+              والحوكمة
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s5p1.html">نحو مجتمع مُستدام</a></li>
+                  <li><a href="s5p2.html">المسؤولية الاجتماعية</a></li>
+                  <li><a href="s5p3.html">المسؤولية البيئية</a></li>
+                  <li><a href="s5p4.html">معلومات المساهمين</a></li>
+                  <li><a href="s5p5.html">مجلس الإدارة</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s5p6.html">اجتماعات مجلس الإدارة</a></li>
+                  <li><a href="s5p7.html">الجمعية العامة للمساهمين</a></li>
+                  <li><a href="s5p8.html">لجان الشركة وأعضائها</a></li>
+                  <li><a href="s5p9.html">الإدارة التنفيذية</a></li>
+                  <li><a href="s5p10.html">هيكل الملكية</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s5p11.html">المكــافــآت</a></li>
+                  <li><a href="s5p12.html">الأحكام ودرجة الالتزام</a></li>
+                  <li><a href="s5p13.html">العقوبات والجزاءات والقضايا</a></li>
+                  <li>
+                    <a href="s5p14.html">التعاملات مع الأطراف ذوي العلاقة</a>
+                  </li>
+                  <li><a href="s5p15.html"> المدفوعات النظامية</a></li>
+                </ul>
+              </div>
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s5p16.html">أسهم الخزينة</a></li>
+                  <li><a href="s5p17.html">القروض</a></li>
+                  <li><a href="s5p18.html">الرقابة الداخلية</a></li>
+                  <li><a href="s5p19.html">إقرارات مجلس الإدارة</a></li>
+                  <li>
+                    <a href="s5p20.html">الأخلاقيات والامتثال التنظيمي</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <!-- item -->
+          <li>
+            <a href="#" class="menu-link">
+              القوائم المالية <br />
+              وتطور الأداء
+            </a>
+            <div class="sub-menu">
+              <div class="sub-menu-item">
+                <ul>
+                  <li><a href="s6p1.html">تطور القوائم المالية</a></li>
+                  <li><a href="s6p2.html">أبرز النسب المالية</a></li>
+                  <li><a href="s6p3.html">تحليل النتائج السنوية</a></li>
+                  <li>
+                    <a href="s6p4.html"
+                      >القوائم المالية للعام 2023 وتقرير المراجع</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <!-- end of item -->
+
+          <li>
+            <a href="s7p1.html" class="menu-link">
+              تواصلوا <br />
+              معنا
+            </a>
+          </li>
+
+          <li>
+            <a href="s8p1.html" class="menu-link">
+              مركز <br />
+              التحميل
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <img src="images/bg03.png" alt="" />
+      <div class="text-box-hero">
+        <p data-aos="fade-up" data-aos-duration="2000">التقرير الاستراتيجي</p>
+        <h1 data-aos="fade-up" data-aos-duration="3000">
+          الرؤية والاستراتيجـية
+        </h1>
+      </div>
+      <div class="hero-footer">
+        <div class="Home-name">
+          <div class="page-name">التقرير الاستراتيجي</div>
+          <img src="images/arrow-left.png" alt="" />
+          <div class="category-name">الرؤية والاستراتيجـية</div>
+        </div>
+        <a href="" class="Home-download-pdf">
+          <p>تـــحمــيل</p>
+          <img src="images/PDF.png" class="img-download-pdf" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <div class="three-cards">
+      <div class="container">
+        <div class="one-card-from-three card1">
+          <img src="images/s2p1a.png" alt="" />
+          <h1>الرؤية</h1>
+          <p>
+            أن تكون المطاحن الأولى الاختيار الأول والشريك المُفضل في قطاعي
+            الأغذية والأعلاف في كافة أنحاء المملكة، والمصدر الموثوق للمنتجات
+            الحيوية للمجتمع والسوق.
+          </p>
+        </div>
+        <div class="one-card-from-three card2">
+          <img src="images/s2p1b.png" alt="" />
+          <h1>الرسالة</h1>
+          <p>
+            نحن المصدر الذي يُعتمد عليه لتوفير منتجات مبتكرة ذات جودة عالية في
+            قطاعي الأغذية والأعلاف، حيث تساهم بشكل فاعل في توفير مصادر الغذاء
+            واستدامتها.
+          </p>
+        </div>
+        <div class="one-card-from-three card3">
+          <img src="images/s2p1c.png" alt="" />
+          <h1>القـيـــم</h1>
+          <p>
+            قيمنا هي ثقافتنا، نعمل ونتعامل بها حيث تحدد معاييرنا السلوكية وكيفية
+            اتخاذنا للقرارات من أجل تحقيق أهداف الشركة ورؤيتها.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="title-with-bg" style="margin-top: 20px">
+      <div class="container">
+        <!-- Title with icon -->
+        <div class="title-with-icon">
+          <img src="images/Dash.png" alt="" />
+          <div>
+            <h3 style="color: #163029">الاستراتيجية</h3>
+            <h1
+              style="
+                color: #163029;
+                font-size: 35px !important;
+                margin: 3px 0px;
+              "
+            >
+              ومؤشرات الأداء الرئيسية
+            </h1>
+          </div>
+        </div>
+        <!-- Title with icon -->
+      </div>
+    </div>
+
+    <div class="table">
+      <div class="container">
+        <div class="table-container">
+          <table class="table1">
+            <thead>
+              <tr>
+                <th>الركيزة</th>
+                <th>تعزيز الريادة السوقية</th>
+                <th>ابتكار منتجات وتقديم خدمات استثنائية</th>
+                <th>بناء منظومة تشغيلية ذات كفاءة وتميز</th>
+                <th>
+                  بناء القدرات اللازمة ومنظومة فاعلة لتحقيق استراتيجية الشركة
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>الوصف</td>
+                <td>
+                  نستهدف بأن تكون الاختيار الأول للعملاء والرواد من حيث حجم
+                  المبيعات والإيرادات والحصة السوقية في منتجات الدقيق.
+                </td>
+                <td>
+                  نستهدف بأن نتمتع بقوة علامتنا التجارية وتقديم أفضل الخدمات
+                  لعملائنا كما أننا نسعى بأن نُعرف بالابتكار المستمر للمنتجات.
+                </td>
+                <td>
+                  نستهدف إنتاج منتجات عالية الجودة، بأكثر الطرق كفاءةً وباستخدام
+                  تكنولوجيا عالمية ذات تكلفة تنافسية.
+                </td>
+                <td>
+                  نستهدف بأن نكون الاختيار المفضل للموظفين من ناحية بيئة العمل
+                  وروح الفريق إضافة إلى توافر الأنظمة الداعمة.
+                </td>
+              </tr>
+              <tr>
+                <td>معايير قياس النجاح</td>
+                <td>
+                  <ul>
+                    <li>تعظيم قيمة الشركة</li>
+                    <li>زيادة الإيرادات والأرباح على نحو مُستدام</li>
+                    <li>التوسع في منتجات وقطاعات جديدة</li>
+                    <li>تطوير قنوات التوزيع والبيع المتعددة</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>
+                      زيادة مساهمة الإيرادات من منتجات التطوير الجديدة للدقيق
+                      NPDs
+                    </li>
+                    <li>تعزيز قيمة العلامة التجارية</li>
+                    <li>تطوير خدمة العملاء</li>
+                    <li>تطوير ممارسات الابتكار</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>تحسين التكلفة عبر سلسلة القيمة</li>
+                    <li>تحسين جودة المنتجات</li>
+                    <li>زيادة القدرة الإنتاجية</li>
+                    <li>تطوير المصادر الاستراتيجية</li>
+                    <li>زيادة كفاءة الإنتاج</li>
+                    <li>تطوير تخطيط الأعمال المتكاملة</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>تحسين ممارسات الصحة والسلامة والبيئة</li>
+                    <li>تعزيز الهيكل التنظيمي والحوكمة</li>
+                    <li>تحسين ثقافة العمل والبيئة</li>
+                    <li>تطوير المعرفة والمهارات والقدرات</li>
+                    <li>تحسين الرقمنة والأتمتة</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>أبرز الإنجازات خلال عام 2023م</td>
+                <td>
+                  <ul>
+                    <li>
+                      تحقيق زيادة على أساس سنوي في ايرادات الشركة بلغت 6%.
+                    </li>
+                    <li>
+                      إيرادات العام 2023 م 964.3 مليون ريال سعودي مقابل 913.6
+                      مليون ريال سعودي للعام 2022 م.
+                    </li>
+                    <li>
+                      الاستمرار في تحقيق إيرادات مستقرة وهوامش ربحية مزدوجة
+                      الأرقام.
+                    </li>
+                    <li>
+                      تحقيق تدفقات نقدية حرة بقيمة 222.4 مليون ريال وبمعدل تحويل
+                      نقدي سنوي بلغ 66.3%.
+                    </li>
+                    <li>إعادة ضبط وإدارة المصاريف التشغيلية.</li>
+                    <li>
+                      استمرار الانتشار في التغطية عبر قنوات التجارة الإلكترونية
+                      وتوسع الحضور في مناطق جغرافية جديدة.
+                    </li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>
+                      مواصلة التوسع في قطاع البيع بالتجزئة بقيادة العلامة
+                      التجارية «الأولى» و«المطاحن الأولى».
+                    </li>
+                    <li>بلغت الحصة السوقية للشركة 30%.</li>
+                    <li>
+                      إطلاق منتجات دقيق تشاكي أتا (الرحي) ودقيق القمح الكامل
+                      لمشروع مطحنة بيزا.
+                    </li>
+                    <li>
+                      إطلاق منتجات الدقيق المتخصصة للاستخدامات الصناعية والدقيق
+                      الجاهز عبر مصنع المخاليط.
+                    </li>
+                    <li>
+                      إضافة عدد 7 منتجات جديدة خلال العام 2023 م ليصل إجمالي عدد
+                      منتجات الشركة إلى نحو 50 منتجاً.
+                    </li>
+                    <li>
+                      البدء في التشغيل التجريبي لمطحنة الديورم لإنتاج السميد في
+                      الربع الأخير لعام 2023 م.
+                    </li>
+                    <li>بلغ معدل رضا العملاء NPS 88.5 % لعام 2023 م.</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>
+                      تحديث الطاقة الإنتاجية للمطحنة سي (Mill C) في مصنع جدة.
+                    </li>
+                    <li>العمل على تحديث وحدتي الطحن A&B في مصنع جدة.</li>
+                    <li>بلوغ معدلات استغلال السعة الإنتاجية للشركة 89%.</li>
+                    <li>
+                      وصل عدد ساعات العمل الآمن في الشركة وجميع منشآتها التابعة
+                      ل 356 يوم عمل خلال العام 2023 م.
+                    </li>
+                    <li>
+                      انخفاض عدد الحوادث الطفيفة والإصابات إلى 12 مقارنة بـ 18
+                      حادث في العام 2022.
+                    </li>
+                    <li>
+                      التوافق الكامل لجميع المصانع التابعة للشركة مع المعايير
+                      النظامية.
+                    </li>
+                    <li>الاستمرار في تطوير اختبارات الجودة للمنتجات.</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>
+                      الحصول على تقييمات عالية من قبل الهيئة العامة للغذاء
+                      والدواء لمصانع الشركة.
+                    </li>
+                    <li>استمرار المحافظة على صحة وسلامة موظفي الشركة.</li>
+                    <li>
+                      الاستمرار في تنمية الموارد البشرية واستقطاب أفضل المواهب.
+                    </li>
+                    <li>
+                      استحداث برنامج أسهم الموظفين وبرنامج الحوافز التشجيعية.
+                    </li>
+                    <li>
+                      اعتماد استراتيجية الشركة نحو دعم مشاريع ومبادرات التحول
+                      الرقمي وباستخدام أحدث الأنظمة.
+                    </li>
+                    <li>
+                      إدراج أسهم الشركة بنجاح في «تداول» خلال النصف الثاني من
+                      العام 2023 م.
+                    </li>
+                    <li>
+                      توزيع أرباح نقدية عن النصف الأول والنصف الثاني من العام
+                      2023 م.
+                    </li>
+                    <li>
+                      انضمام الشركة لمؤشر «إم إس سي آي» ومؤشر «فوتسي راسل»
+                      للأسواق الناشئة.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="title-with-bg" style="margin-top: 20px">
+      <div class="container">
+        <!-- Title with icon -->
+        <div class="title-with-icon">
+          <img src="images/DashAnaly.png" alt="" />
+          <div>
+            <h3 style="color: #163029">استراتيجيتنا</h3>
+            <h1
+              style="
+                color: #163029;
+                font-size: 35px !important;
+                margin: 3px 0px;
+              "
+            >
+              في أرقـــــام
+            </h1>
+          </div>
+        </div>
+        <!-- Title with icon -->
+
+        <p>
+          مؤشرات الأداء الرئيسية للشركة والتي تعدها الإدارة مؤشرات الأداء
+          الرئيسية للسنوات المالية الخمس الأخيرة:
+        </p>
+      </div>
+    </div>
+
+    <div class="one-chart">
+      <div class="container">
+        <div class="outer-title-chart">
+          <h1>تطـور الإيـــرادات مقابل صافي الدخل</h1>
+          <p>في آخر 5 سنوات</p>
+        </div>
+        <div class="one-chart-container">
+          <div class="full-width-one-chart">
+            <p class="title-bar-chart">(جميع المبالغ بالمليون ريال)</p>
+            <div class="chart">
+              <div class="progress-bar" data-value="80.03">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">125.78</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="39.21">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">643.89</p>
+                </div>
+              </div>
+              <p class="progress-date">2019</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="83.17">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">190.69</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="51.69">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">716.3</p>
+                </div>
+              </div>
+              <p class="progress-date">2020</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="85.18">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">198.48</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="59.51">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">801.01</p>
+                </div>
+              </div>
+              <p class="progress-date">2021</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="93.27">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">217.48</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="69.58">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">913.65</p>
+                </div>
+              </div>
+              <p class="progress-date">2022</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="100">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">220.21</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="70.94">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">964.26</p>
+                </div>
+              </div>
+              <p class="progress-date">2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="one-chart-container-data">
+          <div class="box-one-chart-container-data">
+            <div class="color-box" style="background-color: #163029"></div>
+            <p>الإيـــرادات</p>
+          </div>
+          <div class="box-one-chart-container-data">
+            <div class="color-box" style="background-color: #fcb44a"></div>
+            <p>صافي الدخل</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="two-charts">
+      <div class="container">
+        <div class="left-chart-container">
+          <div class="outer-title-chart">
+            <h1>كمية القمح المطحون</h1>
+            <p>في آخر 5 سنوات</p>
+          </div>
+          <div class="left-chart">
+            <div class="chart">
+              <p class="title-bar-chart">
+                جميع الكميات بالمليون طن <br />
+
+                كمية القمح المطحون تتضمن الشوائب وغيرها
+              </p>
+
+              <div class="progress-bar" data-value="66.77">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">1.064</p>
+                </div>
+                <p class="progress-date">2019</p>
+              </div>
+              <div class="progress-bar" data-value="74.28">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">1.103</p>
+                </div>
+                <p class="progress-date">2020</p>
+              </div>
+              <div class="progress-bar" data-value="83.06">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">1.185</p>
+                </div>
+                <p class="progress-date">2021</p>
+              </div>
+              <div class="progress-bar" data-value="94.75">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">1.310</p>
+                </div>
+                <p class="progress-date">2022</p>
+              </div>
+              <div class="progress-bar" data-value="100">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">1.355</p>
+                </div>
+                <p class="progress-date">2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-chart-container second-chart-for-mobile">
+          <div class="outer-title-chart">
+            <h1>حجــــم المبيــعات</h1>
+            <p>في آخر 5 سنوات</p>
+          </div>
+          <div class="right-chart">
+            <div class="chart">
+              <p class="title-bar-chart">جميع الكميات بالمليون طن</p>
+
+              <div class="progress-bar" data-value="57.11">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">1.15</p>
+                </div>
+                <p class="progress-date">2019</p>
+              </div>
+              <div class="progress-bar" data-value="86.59">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">1.20</p>
+                </div>
+                <p class="progress-date">2020</p>
+              </div>
+              <div class="progress-bar" data-value="90.13">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">1.28</p>
+                </div>
+                <p class="progress-date">2021</p>
+              </div>
+              <div class="progress-bar" data-value="98.54">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">1.34</p>
+                </div>
+                <p class="progress-date">2022</p>
+              </div>
+              <div class="progress-bar" data-value="100">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">1.45</p>
+                </div>
+                <p class="progress-date">2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="five-pie-charts">
+      <div class="container">
+        <div class="pie-chart-card">
+          <div class="chart-and-number">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div
+                  id="chart"
+                  class="chart"
+                  data-percent="70"
+                  data-bar-color="#FCB44A"
+                >
+                  <span class="percent"></span>
+                </div>
+              </div>
+            </div>
+            <div class="number-for-chart">
+              <div class="counter-container3">
+                <span class="counter">70</span>
+                <span>%</span>
+              </div>
+            </div>
+            <p class="date-for-pie">2019</p>
+          </div>
+        </div>
+        <div class="pie-chart-card">
+          <div class="chart-and-number">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div
+                  id="chart"
+                  class="chart"
+                  data-percent="82"
+                  data-bar-color="#FED08F"
+                >
+                  <span class="percent"></span>
+                </div>
+              </div>
+            </div>
+            <div class="number-for-chart">
+              <div class="counter-container3">
+                <span class="counter">82</span>
+                <span>%</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="date-for-pie">2020</p>
+        </div>
+        <div class="pie-chart-card">
+          <div class="chart-and-number">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div
+                  id="chart"
+                  class="chart"
+                  data-percent="88"
+                  data-bar-color="#FFE5C3"
+                >
+                  <span class="percent"></span>
+                </div>
+              </div>
+            </div>
+            <div class="number-for-chart">
+              <div class="counter-container3">
+                <span class="counter">88</span>
+                <span>%</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="date-for-pie">2021</p>
+        </div>
+        <div class="pie-chart-card">
+          <div class="chart-and-number">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div
+                  id="chart"
+                  class="chart"
+                  data-percent="88"
+                  data-bar-color="#EBEBEB"
+                >
+                  <span class="percent"></span>
+                </div>
+              </div>
+            </div>
+            <div class="number-for-chart">
+              <div class="counter-container3">
+                <span class="counter">88</span>
+                <span>%</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="date-for-pie">2022</p>
+        </div>
+        <div class="pie-chart-card">
+          <div class="chart-and-number">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div
+                  id="chart"
+                  class="chart"
+                  data-percent="89"
+                  data-bar-color="#FFFFFF"
+                >
+                  <span class="percent"></span>
+                </div>
+              </div>
+            </div>
+            <div class="number-for-chart">
+              <div class="counter-container3">
+                <span class="counter">89</span>
+                <span>%</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="date-for-pie">2023</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="one-chart">
+      <div class="container2">
+        <div class="outer-title-chart">
+          <h1>انتاج الدقيق والأعلاف والنخالة</h1>
+          <p>في آخر 5 سنوات</p>
+        </div>
+        <div class="one-chart-container">
+          <div class="full-width-one-chart">
+            <p class="title-bar-chart">(جميع المبالغ بالمليون ريال)</p>
+            <div class="chart">
+              <div class="progress-bar" data-value="12.71">
+                <div class="progress" style="background-color: #3a4944">
+                  <p class="progress-value">79.63</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="39.21">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">126.1</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="80.03">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">438.16</p>
+                </div>
+              </div>
+              <p class="progress-date">2019</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="13.45">
+                <div class="progress" style="background-color: #3a4944">
+                  <p class="progress-value">68.41</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="51.69">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">178.01</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="83.17">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">469.88</p>
+                </div>
+              </div>
+              <p class="progress-date">2020</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="18.15">
+                <div class="progress" style="background-color: #3a4944">
+                  <p class="progress-value">83.65</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="59.51">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">222.50</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="85.18">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">494.86</p>
+                </div>
+              </div>
+              <p class="progress-date">2021</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="24.75">
+                <div class="progress" style="background-color: #3a4944">
+                  <p class="progress-value">132.55</p>
+                </div>
+              </div>
+
+              <div class="progress-bar" data-value="69.58">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">273.67</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="93.27">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">507.43</p>
+                </div>
+              </div>
+              <p class="progress-date">2022</p>
+            </div>
+            <div class="chart">
+              <div class="progress-bar" data-value="25.39">
+                <div class="progress" style="background-color: #3a4944">
+                  <p class="progress-value">140.31</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="70.94">
+                <div class="progress" style="background-color: #163029">
+                  <p class="progress-value">271.05</p>
+                </div>
+              </div>
+              <div class="progress-bar" data-value="100">
+                <div class="progress" style="background-color: #fcb44a">
+                  <p class="progress-value">552.90</p>
+                </div>
+              </div>
+              <p class="progress-date">2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="one-chart-container-data">
+          <div class="box-one-chart-container-data">
+            <div class="color-box" style="background-color: #fcb44a"></div>
+            <p>الدقيق</p>
+          </div>
+          <div class="box-one-chart-container-data">
+            <div class="color-box" style="background-color: #163029"></div>
+            <p>الأعلاف</p>
+          </div>
+          <div class="box-one-chart-container-data">
+            <div class="color-box" style="background-color: #3a4944"></div>
+            <p>النخالة</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="margin-for-footer">
+      <a href="" class="right-footer">
+        <div class="icon"><img src="images/right-qrr.png" alt="" /></div>
+        <div class="text">
+          <p>الــســـابق</p>
+          <h2>الصفحة السابقة</h2>
+        </div>
+      </a>
+      <a href="" class="left-footer">
+        <div class="text">
+          <p>الـــــتالــي</p>
+          <h2>الصفحة التالية</h2>
+        </div>
+        <div class="icon"><img src="images/left-qrr.png" alt="" /></div>
+      </a>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: true,
+        // Other AOS options
+      });
+    </script>
+
+    <!--jQuery-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="JS/counter.js"></script>
+    <script src="JS/barChart.js"></script>
+    <script src="plugins/jquery-2.2.4.min.js"></script>
+    <script src="plugins/jquery.appear.min.js"></script>
+    <script src="plugins/jquery.easypiechart.min.js"></script>
+    <script src="JS/pieChart-s2p1.js"></script>
+  </body>
+</html>

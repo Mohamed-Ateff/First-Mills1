@@ -1,0 +1,31 @@
+.one-box {
+  margin: 200px 0px 240px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.one-box h1{
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.donwload-pdf-home {
+  color: #163029;
+  background-color: #fcb44a;
+  min-width: 340px !important;
+  padding: 15px 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.donwload-pdf-home img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
