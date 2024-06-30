@@ -24,7 +24,7 @@
 .box-home-section h1 {
   font-weight: 600;
   color: #fcb44a;
-  font-size: 110px;
+  font-size: 115px;
   line-height: 90px;
 }
 .box-home-section h2 {
@@ -35,7 +35,8 @@
   color: #bbbebc;
   font-size: 20px;
   font-weight: 100;
-  margin-top: 15px;
+  margin-top: 12px;
+  /* background-color: red; */
 }
 .buttons-home {
   margin-top: 60px;
@@ -94,7 +95,6 @@
 
 /* End Home */
 
-
 .nine-cards {
   width: 100%;
   display: flex;
@@ -132,6 +132,7 @@
 }
 
 .card-footer p {
+  margin-top: 5px;
   color: #5e6863;
 }
 .card-footer #counter2 {
@@ -216,7 +217,7 @@
 }
 .map-card {
   width: 49% !important;
-  padding: 28px 35px;
+  padding: 20px 50px;
   margin-bottom: 25px;
   display: flex;
 }
@@ -228,13 +229,14 @@
 
 .name-location-map h2 {
   color: white;
-  font-size: 35px;
+  font-size: 38px;
+  margin: 5px 0px;
 }
 
 .name-location-map img {
-  margin-right: 10px;
-  width: 35px !important;
-  height: 35px !important;
+  margin-right: 15px;
+  width: 45px !important;
+  height: 45px !important;
 }
 .more-info-map {
   margin-right: 35px;
@@ -242,12 +244,17 @@
 .more-info-map h3 {
   font-weight: 100;
   font-size: 20px;
+  margin: 5px 0px;
 }
 .more-info-map #counter2 {
   font-size: 50px;
   font-weight: 700;
   margin: 5px 0px;
   line-height: 50px;
+}
+.more-info-map p {
+  font-size: 14px;
+  font-weight: 100 !important;
 }
 @media screen and (max-width: 768px) {
   .map .container2 img {
@@ -352,6 +359,7 @@
 }
 .twelve-card h2 {
   font-size: 23px;
+
 }
 #special-twelve-card {
   display: flex !important;
