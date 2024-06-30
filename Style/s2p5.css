@@ -1,0 +1,100 @@
+.four-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.one-col {
+  /* background-color: red; */
+}
+.card-for-col {
+  min-height: 500px;
+  width: 49%;
+  padding: 60px;
+  background-color: white;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card-for-col img {
+  width: 100px;
+}
+.card-for-col h1 {
+  margin: 20px 28px 28px 28px;
+  font-size: 24px;
+}
+
+.img-and-ttitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.img-dev {
+  background-color: #f7f7f7;
+  width: 115px;
+  min-height: 115px;
+  max-height: 115px;
+  width: 115px;
+  min-width: 115px;
+  max-width: 115px;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-for-cards {
+  padding-right: 50px;
+  margin-top: 25px;
+  position: relative;
+}
+.text-for-cards::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 90px;
+  background-color: #fcb44a;
+}
+.text-for-cards li {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.circle {
+  margin-left: 10px;
+  width: 6px;
+  min-width: 6px;
+  max-width: 6px;
+  height: 6px;
+  min-height: 6px;
+  max-height: 6px;
+  background-color: black;
+  border-radius: 500px;
+}
+.flex p {
+  font-size: 19px;
+}
+@media (max-width: 768px) {
+  .card-for-col {
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  .text-for-cards {
+    padding-right: 35px;
+    margin-top: 30px;
+  }
+  .flex p {
+    font-size: 17px;
+  }
+}
