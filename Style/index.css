@@ -58,8 +58,8 @@ ul li {
 
 /* Title */
 .title {
+  font-weight: 100 !important;
   width: 88.5%;
-  font-weight: 300 !important;
   margin: 30px auto;
   font-size: 42px;
   text-align: justify;
@@ -87,9 +87,9 @@ ul li {
 }
 .text-with-border-right::before {
   content: "";
-  width: 7px;
+  width: 8px;
   background-color: #fcb44a;
-  height: 95px;
+  height: 75px;
   top: 0;
   right: 0;
   position: absolute;

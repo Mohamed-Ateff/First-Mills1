@@ -23,11 +23,12 @@
 }
 .flex-text-num h1 {
   color: #fcb44a;
-  font-size: 45px;
-  margin-bottom: 15px;
+  font-size: 47px;
+  margin-bottom: 5px;
 }
 .card p {
-  font-size: 18px;
+  /* background-color: red; */
+  font-size: 21px;
 }
 
 .s-cards .container {

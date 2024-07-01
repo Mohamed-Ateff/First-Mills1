@@ -1,6 +1,6 @@
 .pie-chart-diff-style {
   background-color: white;
-  padding: 40px 0px 90px 0px;
+  padding: 0px 0px 50px 0px;
   margin-top: 60px;
 }
 .pie-chart-diff-style .container {
@@ -15,7 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+}
+.pie svg{
+  width: 500px;
 }
 .text-for-pie {
   height: 100%;
@@ -105,5 +107,18 @@
     width: 100%;
     padding: 40px;
   }
-  
 }
+.chart-container {
+  text-align: center;
+  width: 95%;
+  margin: 100px auto;
+  overflow: hidden;
+}
+.hidden {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
