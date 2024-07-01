@@ -104,14 +104,23 @@
 }
 .card {
   background-color: white;
-  width: 32%;
-  padding: 22px 20px 0px 20px;
-  margin-bottom: 40px;
+  width: 32.5%;
+  padding: 28px 28px 0px 28px;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
 }
-.card h3 {
-  font-weight: 100;
-  color: #163029;
-  font-size: 25px;
+.card:hover {
+  background-color: #3a4944;
+}
+.card:hover h3 {
+  color: #ebebeb;
+}
+.card:hover p {
+  color: #ebebeb;
+}
+.card:hover span,
+.card:hover > .counter-container span .card h3 {
+  color: #ffe5c3;
 }
 .card > #counter2 span,
 .card > .counter-container span {
@@ -120,7 +129,9 @@
   font-weight: 800;
   font-size: 30px;
   margin-bottom: 0px;
+  transition: 0.3s ease;
 }
+
 
 .card-footer {
   width: 100%;
@@ -129,13 +140,21 @@
   align-items: center;
   position: relative;
   top: -15px;
+  
 }
 
 .card-footer p {
+  transition: 0.3s ease;
   margin-top: 5px;
   color: #5e6863;
+  transition: 0.3s ease;
+}
+.card h3 {
+  font-weight: 300;
+  font-size: 25px;
 }
 .card-footer #counter2 {
+  transition: 0.3s ease;
   font-size: 35px;
   color: #3a4944;
   font-weight: 100 !important;
@@ -197,14 +216,14 @@
 
 /* ten cards end */
 
-.map .container2 {
+.map .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.map .container2 img {
-  width: 600px;
+.map .container img {
+  width: 650px;
 }
 .map-info {
   display: flex;
@@ -216,9 +235,9 @@
   margin-bottom: 50px;
 }
 .map-card {
-  width: 49% !important;
-  padding: 20px 50px;
-  margin-bottom: 25px;
+  width: 49.5% !important;
+  padding: 30px 50px;
+  margin-bottom: 15px;
   display: flex;
 }
 .name-location-map {
@@ -229,12 +248,13 @@
 
 .name-location-map h2 {
   color: white;
-  font-size: 38px;
+  /* background-color: red; */
+  font-size: 45px;
   margin: 5px 0px;
 }
 
 .name-location-map img {
-  margin-right: 15px;
+  margin-right: 20px;
   width: 45px !important;
   height: 45px !important;
 }
@@ -243,21 +263,24 @@
 }
 .more-info-map h3 {
   font-weight: 100;
-  font-size: 20px;
+  font-size: 25px;
   margin: 5px 0px;
 }
 .more-info-map #counter2 {
-  font-size: 50px;
+  /* background-color: red; */
+  font-size: 55px;
   font-weight: 700;
   margin: 5px 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   line-height: 50px;
 }
 .more-info-map p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100 !important;
 }
 @media screen and (max-width: 768px) {
-  .map .container2 img {
+  .map .container img {
     width: 100%;
   }
   .map-card {
@@ -284,14 +307,14 @@
 .nine-logos {
   background-color: white;
 }
-.nine-logos .container2 {
+.nine-logos .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
   margin-top: 70px;
 }
-.nine-logos .container2 .card-logos {
+.nine-logos .container .card-logos {
   width: 32%;
   padding: 0px 20px;
   margin: 20px 0px;
@@ -333,7 +356,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nine-logos .container2 .card-logos {
+  .nine-logos .container .card-logos {
     width: 100%;
   }
 }
@@ -347,7 +370,8 @@
   flex-flow: wrap;
 }
 .twelve-card {
-  width: 23%;
+  width: 24%;
+  margin-bottom: 20px;
   height: 250px;
   padding: 35px 35px;
   background-color: white;
@@ -355,11 +379,9 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 35px;
 }
 .twelve-card h2 {
   font-size: 23px;
-
 }
 #special-twelve-card {
   display: flex !important;

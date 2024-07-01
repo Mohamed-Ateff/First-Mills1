@@ -1,12 +1,13 @@
 .two-charts {
 }
 
-.two-charts .container2 {
+.two-charts .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: fit-content !important;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .outer-title-chart {
@@ -26,7 +27,7 @@
   width: 100%;
   position: absolute;
   top: -20px;
-  left: 0;
+  right: 25px;
   font-size: 13px;
 }
 .right-chart-container {
@@ -57,6 +58,9 @@
 .chart {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .progress-bar {

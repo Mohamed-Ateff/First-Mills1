@@ -70,6 +70,11 @@
 .card-from-six p {
   font-size: 24px;
 }
+@media screen and (max-width: 768px) {
+  .card-from-six {
+    width: 100%;
+  }
+}
 
 /* Three cards */
 
@@ -78,35 +83,139 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: red;
 }
 .card-from-three {
   position: relative;
-  padding: 35px 60px;
+  padding: 50px 60px;
   background-color: white;
 }
-.card-from-three::before {
+
+.title-for-card-three {
+  font-size: 30px;
+  position: relative;
+}
+.title-for-card-three::before {
   content: "";
   position: absolute;
-  top: 30px;
-  right: 0;
-  width: 8px;
-  height: 75px;
+  top: -15%;
+  right: -60px;
+  width: 10px;
+  height: 120%;
   background-color: #fcb44a;
 }
 
-.title-for-card-three{
-  font-size: 25px;
-}
-.flex-num-and-text{
+.flex-num-and-text {
   display: flex;
+  margin-top: 20px;
+}
+.flex-num-and-text h1 {
+  color: #fcb44a;
+  font-size: 55px;
 }
 
+.diss-for-cards {
+  margin-top: 15px;
+  color: #3a4944;
+  font-size: 25px;
+}
+.flex-h-cards {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.flex-cards-inside {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+}
+.card-from-theree-inside {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+}
 #width-for-card1 {
   width: 33%;
 }
+#width-for-card1 .flex-cards-inside {
+  justify-content: right !important;
+  align-items: right !important;
+  display: flex;
+  flex-direction: column;
+  text-align: right !important;
+  width: fit-content;
+}
+#width-for-card1 .card-from-theree-inside {
+  justify-content: right !important;
+  align-items: right !important;
+  display: flex;
+  flex-direction: column;
+  text-align: right !important;
+  width: fit-content;
+}
+#width-for-card1 .card-from-theree-inside p {
+}
+#width-for-card1 .flex-cards-inside {
+  margin-top: 30px;
+}
+
 #width-for-card2 {
   width: 66%;
+}
+#width-for-card3 {
+  width: 100%;
+  margin-top: 20px;
+}
+#width-for-card3 .flex-h-cards {
+  justify-content: space-between;
+  width: 90%;
+  margin: 30px auto auto auto;
+}
+#width-for-card3 .flex-cards-inside {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  #width-for-card1 {
+    width: 100%;
+  }
+  #width-for-card2 {
+    margin-top: 20px;
+    width: 100%;
+  }
+  #width-for-card3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #width-for-card3 .flex-h-cards {
+    width: 100%;
+  }
+  .flex-h-cards {
+    flex-wrap: wrap;
+  }
+  .flex-cards-inside {
+    min-width: 100% !important;
+
+    align-items: flex-start !important;
+    text-align: right !important;
+    justify-content: flex-start !important;
+  }
+  .card-from-theree-inside {
+    min-width: 100% !important;
+    width: 100% !important;
+
+    align-items: flex-start !important;
+    text-align: right !important;
+    justify-content: flex-start !important;
+  }
 }
 
 /* Three cards End */
