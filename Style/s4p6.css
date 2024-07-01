@@ -1,24 +1,26 @@
-.four-cards .container {
-  width: 80%;
+.four-cards .container3 {
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
+.title-for-cards {
+  font-size: 40px;
+}
 .card {
-  width: 48%;
-  padding: 100px 55px;
+  width: 49%;
+  padding: 70px 55px;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .icon-for-card {
-  width: 110px;
-  height: 110px;
+  width: 135px;
+  height: 135px;
   border-radius: 500px;
   background-color: #f7f7f7;
   padding: 22px;
@@ -28,26 +30,26 @@
 }
 .icon-for-card img {
   width: 100%;
-  height: 100%;
 }
 .card h2 {
-  font-size: 21px;
+  font-size: 31px;
   margin: 25px 0px;
 }
 .num-and-text {
   display: flex;
 }
 .num-and-text h1 {
-  font-size: 40px;
+  color: #3a4944;
+  font-size: 55px;
 }
 .border {
-  margin: 10px 0px 30px 0px;
-  width: 70px;
-  height: 6px;
+  margin: 7px 0px 30px 0px;
+  width: 85px;
+  height: 9px;
   background-color: #fcb44a;
 }
 .card p {
-  font-size: 20px;
+  font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   .card {

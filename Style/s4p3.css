@@ -1,13 +1,13 @@
 .s-cards .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: wrap;
 }
 .card {
-  width: 32%;
-  padding: 60px 55px;
-  min-height: 450px;
+  width: 32.5%;
+  padding: 60px 50px;
+  min-height: 500px;
   background-color: white;
   position: relative;
   display: flex;
@@ -15,7 +15,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .card .arrow-for-card {
@@ -26,7 +26,7 @@
   border-radius: 50%;
   position: absolute;
   top: 29%;
-  left: -10%;
+  left: -9%;
   z-index: 1;
 }
 .card .arrow-for-card img {
@@ -37,13 +37,13 @@
 .card h1 {
   color: #3a4944;
   padding: 0px 13px 0px 13px;
-  border-bottom: 5px solid #fcb44a;
-  line-height: 37px;
-  font-size: 40px;
+  border-bottom: 9px solid #fcb44a;
+  line-height: 45px;
+  font-size: 50px;
 }
 
 .card p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .title-for-card {
@@ -54,6 +54,8 @@
   align-items: center;
 }
 .title-for-card h2 {
+  font-size: 30px;
+  /* background-color: red; */
 }
 
 .rotate {

@@ -45,14 +45,21 @@ ul li {
   width: 100%;
   display: flex;
   align-items: center;
+  /* background-color: red; */
 }
 .title-with-icon img {
-  width: 60px;
+  width: 70px;
   margin-left: 20px;
 }
 .title-with-icon div {
   position: relative;
   top: 8px;
+}
+.title-with-icon div h1 {
+  font-size: 40px;
+}
+.title-with-icon div h3 {
+  font-size: 20px;
 }
 /* Title with icon Ends */
 

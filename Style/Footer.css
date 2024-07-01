@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 125px;
+  height: 152px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,11 +33,12 @@ footer a {
 }
 .right-footer .text h2 {
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 100;
+  font-size: 31px;
 }
 
 .left-footer {
-  padding: 0px 55px;
+  padding: 0px 85px;
   width: 50%;
   height: 100%;
   background-color: #d8d8d7;
@@ -48,7 +49,7 @@ footer a {
 }
 .left-footer .icon {
   transition: 0.3s ease;
-  margin-left: 25px;
+  margin-left: 0px;
 }
 .left-footer .icon img {
   width: 50px;
@@ -57,7 +58,8 @@ footer a {
   margin-bottom: 5px;
 }
 .left-footer .text h2 {
-  font-weight: 400;
+  font-weight: 100;
+  font-size: 31px;
 }
 
 .margin-for-footer {

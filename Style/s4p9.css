@@ -285,7 +285,7 @@ body[dir="ltr"] .table9 {
 }
 .date {
   margin-top: 5px;
-  font-size: 21px;
+  font-size: 23px;
 }
 .two-r {
   margin-top: 40px;
@@ -300,8 +300,8 @@ body[dir="ltr"] .table9 {
 }
 
 .img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   margin-left: 20px;
 }
 .img img {
@@ -313,13 +313,13 @@ body[dir="ltr"] .table9 {
   top: 5px;
 }
 .text .p1 {
-  font-size: 25px !important;
+  font-size: 28px !important;
   font-weight: bold;
   color: #fcb44a;
   line-height: 20px;
 }
 .text .p2 {
-  font-size: 19px;
+  font-size: 22px;
   color: #163029;
 }
 .text1 {

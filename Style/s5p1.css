@@ -16,8 +16,8 @@
   justify-content: center;
   align-items: center;
 }
-.pie svg{
-  width: 500px;
+.pie svg {
+  width: 600px;
 }
 .text-for-pie {
   height: 100%;
@@ -30,7 +30,9 @@
   padding: 0px 30px;
 }
 .text-for-pie h1 {
+  /* background-color: red; */
   margin-right: 20px;
+  font-size: 40px;
   margin-bottom: 25px;
 }
 
@@ -42,13 +44,13 @@
 }
 .num-and-text .num {
   margin-left: 15px;
-  font-size: 18px;
+  font-size: 23px;
   color: #fcb44a;
   font-weight: bold;
 }
 .num-and-text .text {
   color: #163029;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .title-for-two-cards {
@@ -56,7 +58,7 @@
   width: 85%;
 }
 .title-for-two-cards h2 {
-  font-size: 28px;
+  font-size: 35px;
 }
 
 .goals .container {
@@ -121,4 +123,3 @@
   opacity: 1;
   transition: opacity 1s ease-in-out;
 }
-
