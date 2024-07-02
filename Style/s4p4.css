@@ -21,7 +21,6 @@
 }
 
 .there-cards .container {
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,8 +28,8 @@
 }
 
 .there-cards .container .card-from-three {
-  width: 30%;
-  padding: 25px;
+  width: 32.5%;
+  padding: 45px;
   background-color: white;
 }
 .num-and-text {
@@ -38,15 +37,15 @@
 }
 .card-from-three h5 {
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .num-and-text h1 {
   margin-left: 10px;
-  font-size: 45px;
+  font-size: 50px;
   color: #fcb44a;
 }
 .card-from-three p {
-  font-size: 12px;
+  font-size: 15px;
   color: #5e6863;
 }
 @media screen and (max-width: 768px) {
