@@ -1,0 +1,71 @@
+.three-cards {
+}
+.title-fot-there-cards {
+  text-align: right;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.title-fot-there-cards h2 {
+  color: #5e6863;
+}
+.cards-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px auto 0px auto;
+  width: 100%;
+}
+.cards-2 .one-card-2 {
+  width: 100%;
+  padding-right: 30px;
+  position: relative;
+}
+.cards-2 .one-card-2 h3 {
+  color: #3a4944;
+  font-size: 20px;
+}
+.cards-2 .one-card-2 p {
+  color: #5e6863;
+  margin-bottom: 20px;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 260px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-2 {
+    flex-flow: wrap;
+  }
+  .cards-2 .one-card-2 {
+    width: 100%;
+    margin: 0px auto 40px auto;
+    padding-right: 30px;
+  }
+}
+
+/* End three cards */
+
+.outer-title-chart {
+  margin-right: 35px;
+  margin-bottom: 15px;
+}
+
+.two-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-dis {
+  margin-top: 50px;
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
