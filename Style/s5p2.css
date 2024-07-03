@@ -40,10 +40,10 @@
 }
 
 .card-from-eight {
-  margin-bottom: 40px;
-  max-height: 210px;
-  min-height: 210px;
-  width: 23%;
+  margin-bottom: 20px;
+  max-height: 220px;
+  min-height: 220px;
+  width: 24%;
   padding: 45px;
   background-color: white;
   display: flex;
@@ -52,15 +52,15 @@
   flex-direction: column;
 }
 .card-from-eight img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
 }
 .card-from-eight h1 {
-  font-size: 50px;
+  font-size: 53px;
   color: #fcb44a;
 }
 .card-from-eight p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media (max-width: 768px) {
