@@ -98,6 +98,7 @@
   transform: translateX(-50%);
 }
 
+
 @media screen and (max-width: 768px) {
   .two-charts .container2 {
     flex-direction: column;
@@ -151,6 +152,16 @@
   /* border: 1px solid #ccc; */
   position: relative;
   margin: 4px 4px 0px 4px;
+}
+.min-bar{
+  position: absolute;
+  top: -15px;
+  left: -3px;
+  width: 5px;
+  height: 2px !important;
+  min-height: 2px !important;
+  max-height: 2px !important;
+  background-color: black;
 }
 
 .one-chart-container-data {
