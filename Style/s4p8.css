@@ -125,7 +125,7 @@
 }
 
 .flex-cards-inside {
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   display: flex;
   flex-direction: column;
