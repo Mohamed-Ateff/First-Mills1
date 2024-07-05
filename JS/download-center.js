@@ -26,10 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   downloadAllButton.addEventListener("click", () => {
-    const allFiles = Array.from(document.querySelectorAll(".sub-checkbox")).map(
-      (cb) => cb.dataset.file
-    );
-    downloadFiles(allFiles);
+    downloadFiles(["/pdfs/التقرير كاملًا.pdf"]);
   });
 
   downloadSelectedButton.addEventListener("click", () => {
@@ -46,12 +43,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     files.forEach((file) => {
-      const link = document.createElement("a");
-      link.href = file;
-      link.setAttribute("download", "");
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      setTimeout(() => {
+        const link = document.createElement("a");
+        link.href = file;
+        link.setAttribute("download", "");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }, 500);
     });
   }
 });
