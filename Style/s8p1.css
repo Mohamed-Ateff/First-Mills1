@@ -73,10 +73,23 @@ label {
   height: 28px;
   margin-left: 5px;
   cursor: pointer;
-  border-color: #d9d9d9 !important;
   outline: none !important;
-  background-color: #d9d9d9 !important;
 }
+
+input[type="checkbox"].custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #c1c1c1;
+  border-radius: 0px;
+  background-color: #d9d9d9;
+}
+
+/* Add a custom checkmark */
+input[type="checkbox"].custom-checkbox:checked {
+  appearance: auto;
+}
+
 .section-header {
 }
 
@@ -86,14 +99,13 @@ label {
   height: 0;
 }
 
-.custom-checkbox::after {
+.custom-checkbox:checked::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   width: 12px;
   height: 12px;
-  background-color: #ffaa00;
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0.2s ease-in-out;
 }

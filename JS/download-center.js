@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     files.forEach((file) => {
       const link = document.createElement("a");
       link.href = file;
-      link.setAttribute("download", "pdf");
+      link.setAttribute("download", "");
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
