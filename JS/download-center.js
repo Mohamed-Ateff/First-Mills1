@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   downloadAllButton.addEventListener("click", () => {
-    downloadFiles(["/pdfs/التقرير كاملًا.pdf"]);
+    downloadFiles(["/pdfs/التقرير كامل.pdf"]);
   });
 
   downloadSelectedButton.addEventListener("click", () => {
