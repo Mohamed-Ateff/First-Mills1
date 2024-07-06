@@ -164,15 +164,13 @@
 .dev-for-img {
   width: 100%;
   height: 300px;
-  border: 4px solid #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
 .dev-for-img img {
-  width: 95%;
-  height: 120%;
+  width: 65%;
 }
 .card-from-eight h2 {
   margin-top: 30px;
