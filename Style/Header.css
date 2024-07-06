@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   z-index: 10;
-
 }
 .brand-and-icon {
   display: flex;
@@ -307,8 +306,16 @@
 }
 
 @media screen and (max-width: 992px) {
+  .navbar-nav{
+    overflow-y: auto;
+    height: 87vh !important;
+  }
   .navbar-brand {
     margin-right: 15px;
+  }
+  .navbar-nav {
+    padding: 15px 0px;
+    background-color: #163029;
   }
   .menu-link {
     padding-right: 23px !important;
@@ -317,22 +324,49 @@
   .menu-link br {
     display: none;
   }
+  .menu-link {
+    background-color: #163029;
+    color: white;
+  }
+  .sub-menu {
+    margin: 10px 0px !important;
+  }
   .sub-menu-item {
-    padding: 10px 30px;
-    color: black !important;
+    background-color: #163029;
+    padding: 0px 30px;
+    color: #d8d8d7 !important;
   }
   .sub-menu-item:nth-child(2) {
-    padding: 10px 30px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding: 0px 30px;
   }
   .sub-menu-item:nth-child(3) {
-    padding: 10px 30px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding: 0px 30px;
   }
   .sub-menu-item:nth-child(4) {
-    padding: 10px 30px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding: 0px 30px;
+  }
+  .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: block;
+    padding: 0.6rem 0;
+    margin: 0.2rem 0;
+    border-bottom: 0px solid #ddd;
+    border-radius: 1px;
+    position: relative;
+    transition: all 0.4s ease;
   }
   .sub-menu-item ul li a {
     font-size: 14px;
-    color: black !important;
+
+    color: #d8d8d7 !important;
   }
   .navbar-nav {
     overflow: auto !important;
