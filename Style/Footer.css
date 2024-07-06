@@ -77,9 +77,24 @@ footer a {
     min-height: 150px;
     max-height: 150px;
   }
+
+  .right-footer .text h2 {
+    font-size: 21px;
+  }
+  .right-footer .icon img {
+    width: 40px;
+  }
+
   .left-footer {
     max-height: 150px;
     min-height: 150px;
     width: 100%;
+  }
+
+  .left-footer .text h2 {
+    font-size: 21px;
+  }
+  .left-footer .icon img {
+    width: 40px;
   }
 }
