@@ -175,6 +175,7 @@
 .card-from-eight h2 {
   margin-top: 30px;
   font-size: 25px;
+  /* background-color: red; */
 }
 
 @media screen and (max-width: 768px) {
