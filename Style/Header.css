@@ -38,6 +38,9 @@
   height: 45px;
   margin-top: 20px;
 }
+.navbar-toggler i{
+  color: #000;
+}
 .navbar-toggler:hover {
   opacity: 0.7;
 }

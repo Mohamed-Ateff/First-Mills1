@@ -1,42 +1,38 @@
 $(document).ready(function () {
+  // Handle navbar toggler click
   $(".navbar-toggler").click(function () {
     $(".navbar-collapse").slideToggle(300);
   });
 
-  smallScreenMenu();
-  let temp;
-  function resizeEnd() {
-    smallScreenMenu();
-  }
+  // Initial setup
+  handleResize();
 
+  // Debounced resize handler
+  let resizeTimeout;
   $(window).resize(function () {
-    clearTimeout(temp);
-    temp = setTimeout(resizeEnd, 100);
-    resetMenu();
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(handleResize, 100);
   });
 });
 
-const subMenus = $(".sub-menu");
-const menuLinks = $(".menu-link");
+// Cache selectors
+const $subMenus = $(".sub-menu");
+const $menuLinks = $(".menu-link");
 
-function smallScreenMenu() {
+// Handle resize
+function handleResize() {
   if ($(window).innerWidth() <= 992) {
-    menuLinks.each(function (item) {
-      $(this).click(function () {
-        $(this).next().slideToggle();
-      });
+    // Bind click event to menu links for small screens
+    $menuLinks.off("click").on("click", function (e) {
+      e.preventDefault(); // Prevent default action
+      $(this).next().slideToggle();
     });
   } else {
-    menuLinks.each(function (item) {
-      $(this).off("click");
-    });
-  }
-}
-
-function resetMenu() {
-  if ($(window).innerWidth() > 992) {
-    subMenus.each(function (item) {
-      $(this).css("display", "none");
+    // Unbind click event for larger screens
+    $menuLinks.off("click");
+    // Reset sub-menus display
+    $subMenus.each(function () {
+      $(this).css("display", "");
     });
   }
 }
