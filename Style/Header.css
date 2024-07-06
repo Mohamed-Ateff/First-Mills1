@@ -38,9 +38,6 @@
   height: 45px;
   margin-top: 20px;
 }
-.navbar-toggler i{
-  color: #000;
-}
 .navbar-toggler:hover {
   opacity: 0.7;
 }
@@ -310,6 +307,7 @@
 
 @media screen and (max-width: 992px) {
   .navbar-nav {
+    background-color: blue;
     overflow-y: auto;
     height: 87vh !important;
   }
@@ -317,9 +315,9 @@
     margin-right: 15px;
   }
   .navbar-nav {
-    background-color: red;
-    padding: 30px 0px 100px 0px ;
-    /* background-color: #163029; */
+    border-right: 2px solid #fcb44a;
+    padding: 30px 0px 100px 0px;
+    background-color: #163029;
   }
   .menu-link {
     padding-right: 23px !important;

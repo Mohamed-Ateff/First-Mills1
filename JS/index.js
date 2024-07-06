@@ -40,6 +40,20 @@ function handleResize() {
   }
 }
 
+// Prevent default action for menu links only if they have a submenu
+$menuLinks.each(function () {
+  const $submenu = $(this).next(".sub-menu");
+  if (!$submenu.length) {
+    $(this)
+      .off("click")
+      .on("click", function (e) {
+        window.location.href = $(this).attr("href"); // Ensure navigation happens
+      });
+  }
+});
+
+// Header Ends
+
 try {
   fetch(
     new Request(
