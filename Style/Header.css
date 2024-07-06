@@ -317,9 +317,9 @@
     margin-right: 15px;
   }
   .navbar-nav {
-    border-right: 2px solid #fcb44a;
+    background-color: red;
     padding: 30px 0px 100px 0px ;
-    background-color: #163029;
+    /* background-color: #163029; */
   }
   .menu-link {
     padding-right: 23px !important;

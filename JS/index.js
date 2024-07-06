@@ -24,8 +24,11 @@ function handleResize() {
   if ($(window).innerWidth() <= 992) {
     // Bind click event to menu links for small screens
     $menuLinks.off("click").on("click", function (e) {
-      e.preventDefault(); // Prevent default action
-      $(this).next().slideToggle();
+      const $submenu = $(this).next(".sub-menu");
+      if ($submenu.length) {
+        e.preventDefault(); // Prevent default action only if there is a submenu
+        $submenu.slideToggle();
+      }
     });
   } else {
     // Unbind click event for larger screens
