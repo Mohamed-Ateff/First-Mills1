@@ -170,6 +170,19 @@ body[dir="ltr"] .table2 {
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .bar-chart-and-title {
+    width: 100%;
+  }
+  .title-and-cards {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .delet{
+    display: none;
+  }
+}
+
 .table-container {
   width: 100%;
   overflow-x: auto;

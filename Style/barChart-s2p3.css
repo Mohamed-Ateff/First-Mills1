@@ -63,3 +63,29 @@
   font-size: 15px;
   font-weight: 900;
 }
+
+@media (max-width: 768px) {
+  .progress-value {
+    /* background-color: tomato; */
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+    color: #163029;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 10px;
+    min-width: 50px !important;
+  }
+  .progress-date {
+    justify-content: center;
+    display: flex;
+    min-width: 110px !important;
+    text-align: right;
+    position: absolute;
+    left: -80px;
+    font-size: 10px;
+  }
+}

@@ -45,7 +45,6 @@ ul li {
   width: 100%;
   display: flex;
   align-items: center;
-  /* background-color: red; */
 }
 .title-with-icon img {
   width: 70px;
@@ -100,6 +99,11 @@ ul li {
   top: 0;
   right: 0;
   position: absolute;
+}
+@media screen and (max-width: 768px) {
+  .text-with-border-right {
+    width: 100% !important;
+  }
 }
 
 /* text with border right Ends */
