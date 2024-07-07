@@ -56,4 +56,7 @@
     width: 100%;
     padding: 55px 55px;
   }
+  .card h2 {
+    text-align: center;
+  }
 }
