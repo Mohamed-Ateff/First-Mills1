@@ -382,7 +382,7 @@
 /* Button styles */
 .toggle-btn {
   background-color: white;
-  color: #3A4944;
+  color: #3a4944;
   border: none;
   padding: 13px 28px;
   font-weight: 800;
@@ -390,7 +390,7 @@
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .toggle-btn:hover {
@@ -408,9 +408,18 @@ body[lang="en"] {
     margin-left: 0;
     margin-right: 20px;
   }
+
   @media screen and (max-width: 992px) {
     .navbar-brand {
       margin-left: 15px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .menu-link {
+      padding-right: 0;
+      padding-left: 23px !important;
+      font-size: 16px !important;
     }
   }
 }
