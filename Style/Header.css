@@ -82,7 +82,7 @@
   transition: all 0.5s ease;
 }
 .sub-menu ul li a:hover {
-  padding-left: 14px;
+  /* padding-left: 14px; */
   opacity: 0.9;
 }
 .sub-menu {
@@ -323,9 +323,6 @@
     padding-right: 23px !important;
     font-size: 16px !important;
   }
-  .navbar-nav li:last-child {
-    padding-right: 23px !important;
-  }
   .menu-link br {
     display: none;
   }
@@ -357,7 +354,6 @@
     padding: 0px 30px;
   }
   .navbar-nav > li > a {
-    text-transform: uppercase;
     font-size: 1.1rem;
     font-weight: 700;
     display: block;
@@ -403,6 +399,12 @@
 .toggle-btn:focus {
   outline: none;
 }
+@media screen and (max-width: 992px) {
+  .toggle-btn {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+}
 
 body[lang="en"] {
   .navbar-brand {
@@ -410,12 +412,45 @@ body[lang="en"] {
     margin-right: 20px;
   }
 
+  .menu-link {
+    height: 100%;
+    width: 100%;
+  }
   .navbar-nav > li {
+    min-height: 105px !important;
     padding-right: 10px;
     padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-menu-item ul .active::before {
+    left: -13px !important;
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .navbar-toggler {
+      margin-left: 0px;
+      margin-right: 20px;
+    }
+    .toggle-btn {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
   }
 
   @media screen and (max-width: 1530px) {
+    .navbar-nav > li {
+      min-height: fit-content !important;
+      padding-right: 10px;
+      padding-left: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
     .navbar-nav > li a {
       font-size: 13px;
     }
@@ -440,7 +475,6 @@ body[lang="en"] {
     }
     .navbar-nav li:last-child {
       padding-right: 0;
-      padding-left: 23px !important;
     }
   }
 }
