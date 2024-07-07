@@ -253,10 +253,11 @@
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.4s ease;
   }
-  .navbar-nav > li:hover {
+  .navbar-nav > li:not(:last-child):hover {
     background-color: #163029;
     color: #fcb44a !important;
   }
+
   .navbar-nav > li a {
     opacity: 1;
     font-size: 16px;
@@ -375,5 +376,39 @@
   }
   .navbar-collapse {
     overflow: auto !important;
+  }
+}
+
+/* Button styles */
+.toggle-btn {
+  background-color: #fcb44a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #ef9a1d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-btn:focus {
+  outline: none;
+}
+
+body[lang="en"] {
+  .navbar-brand {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: 992px) {
+    .navbar-brand {
+      margin-left: 15px;
+    }
   }
 }
