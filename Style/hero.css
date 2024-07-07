@@ -92,6 +92,16 @@
   align-items: center;
 }
 
+body[lang="en"] {
+  .hero-footer .Home-name img {
+    transform: rotate(180deg);
+  }
+  .Home-download-pdf p {
+    margin-right: 15px;
+    margin-left: 0px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     width: 100%;
