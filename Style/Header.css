@@ -382,7 +382,7 @@
 /* Button styles */
 .toggle-btn {
   background-color: white;
-  color: #3A4944;
+  color: #3a4944;
   border: none;
   padding: 13px 28px;
   font-weight: 800;
@@ -390,12 +390,11 @@
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .toggle-btn:hover {
-  background-color: #ef9a1d;
-  color: white;
+  background-color: #fcb44a;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
