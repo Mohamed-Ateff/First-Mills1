@@ -416,6 +416,7 @@ body[lang="en"] {
   align-items: flex-start !important;
   text-align: right !important;
 }
+
 #special-twelve-card p {
   font-weight: 100 !important;
   font-size: 28px;
@@ -562,5 +563,15 @@ body[lang="en"] {
   .logo-and-number img {
     margin-right: 0;
     margin-left: 30px;
+  }
+  #special-twelve-card {
+    text-align: left !important;
+  }
+  .line {
+    left: 0;
+  }
+  .cards-3 .one-card-3 {
+    padding-right: 0;
+    padding-left: 30px;
   }
 }
