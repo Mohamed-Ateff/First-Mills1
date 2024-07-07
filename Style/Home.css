@@ -304,11 +304,15 @@
     font-size: 13px;
   }
   .more-info-map #counter2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 28px;
+    line-height: 50px;
   }
   .name-location-map h2 {
     color: white;
     font-size: 25px;
+    margin: 0px 0px;
   }
 }
 
@@ -368,6 +372,10 @@
 @media screen and (max-width: 768px) {
   .nine-logos .container .card-logos {
     width: 100%;
+  }
+  .border-right-and-left {
+    border-right: none;
+    border-left: none;
   }
 }
 
@@ -530,7 +538,9 @@
     top: 50%;
     transform: translateY(-50%);
     right: 0;
-    width: 20px;
-    height: 300px;
+    width: 50px;
+  }
+  .baner h1 {
+    font-size: 23px;
   }
 }

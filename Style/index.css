@@ -219,3 +219,14 @@ ul li {
 .title-for-table {
   margin-bottom: 40px;
 }
+
+@media (max-width: 768px) {
+  .outer-title-chart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 0px !important;
+    margin-bottom: 15px;
+  }
+}
