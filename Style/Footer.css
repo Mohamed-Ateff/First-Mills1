@@ -98,3 +98,15 @@ footer a {
     width: 40px;
   }
 }
+
+body[lang="en"] {
+  footer img {
+    transform: rotate(180deg);
+  }
+  footer .right-footer {
+    justify-content: space-between;
+  }
+  footer .left-footer {
+    justify-content: flex-start;
+  }
+}
