@@ -60,6 +60,14 @@ ul li {
 .title-with-icon div h3 {
   font-size: 20px;
 }
+
+body[lang="en"] {
+  .title-with-icon img {
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+}
+
 /* Title with icon Ends */
 
 /* Title */
@@ -100,6 +108,17 @@ ul li {
   right: 0;
   position: absolute;
 }
+
+body[lang="en"] {
+  .text-with-border-right {
+    padding-right: 0px;
+    padding-left: 30px;
+  }
+  .text-with-border-right::before {
+    left: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .text-with-border-right {
     margin-right: 0px;

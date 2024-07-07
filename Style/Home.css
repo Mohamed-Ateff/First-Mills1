@@ -78,6 +78,15 @@
   background-color: #3a4944;
 }
 
+body[lang="en"] {
+  .buttons-home a img {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+}
+
+
+
 @media screen and (max-width: 768px) {
   .buttons-home {
     flex-direction: column;

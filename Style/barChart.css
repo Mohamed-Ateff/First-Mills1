@@ -30,6 +30,12 @@
   right: 25px;
   font-size: 13px;
 }
+body[lang="en"] {
+  .title-bar-chart {
+    text-align: left !important;
+    left: 25px;
+  }
+}
 .right-chart-container {
   width: 49%;
 }
@@ -168,6 +174,18 @@
   width: 20px;
   height: 20px;
   margin-left: 10px;
+}
+
+body[lang="en"] {
+  .box-one-chart-container-data {
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 27px;
+  }
+  .color-box {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
 }
 
 /* ALL charts beside each other */
