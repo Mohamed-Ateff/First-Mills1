@@ -73,3 +73,9 @@
     width: 100%;
   }
 }
+
+body[lang="en"] {
+  .triangle {
+    left: 10%;
+  }
+}
