@@ -102,6 +102,7 @@ ul li {
 }
 @media screen and (max-width: 768px) {
   .text-with-border-right {
+    margin-right: 0px;
     width: 100% !important;
   }
 }
@@ -218,4 +219,15 @@ ul li {
 
 .title-for-table {
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .outer-title-chart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 0px !important;
+    margin-bottom: 15px;
+  }
 }

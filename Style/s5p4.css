@@ -70,6 +70,24 @@
   font-size: 21px;
 }
 
+@media screen and (max-width: 768px) {
+  .two-titles {
+    flex-direction: column;
+  }
+  .two-titles p{
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .small-dis {
+    width: 100% ;
+    margin-top: 50px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 21px;
+  }
+}
+
 /* First Table Styles */
 .table-container {
   width: 100%;
