@@ -47,7 +47,8 @@
 .left-card-eight {
   padding-right: 40px;
 }
-.left-card-eight h2{
+
+.left-card-eight h2 {
   font-size: 27px;
 }
 
@@ -72,7 +73,7 @@
   color: #5e6863;
   font-size: 16px;
 }
-.title-under-cards{
+.title-under-cards {
   font-size: 23px;
 }
 
@@ -94,5 +95,19 @@
   }
   .delete {
     display: none;
+  }
+}
+
+body[lang="en"] {
+  .left-card-eight {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+  .quote p {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .quote img {
+    transform: scaleX(-1);
   }
 }
