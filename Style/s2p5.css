@@ -98,3 +98,17 @@
     font-size: 17px;
   }
 }
+
+body[lang="en"] {
+  .text-for-cards::before {
+    left: 0;
+  }
+  .text-for-cards {
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+  .circle {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+}

@@ -89,3 +89,9 @@
     font-size: 10px;
   }
 }
+
+body[lang="en"] {
+  .chart {
+    /* align-items: center; */
+  }
+}

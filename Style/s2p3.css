@@ -37,7 +37,6 @@ table {
   tr {
     td:nth-child(1),
     th:nth-child(1) {
-      text-align: right;
       color: #fcb44a;
       background-color: #163029;
       border: 0;
@@ -55,14 +54,12 @@ table {
 body[dir="rtl"] .table2 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: right;
   }
 }
 
 body[dir="ltr"] .table2 {
   th,
   td {
-    text-align: left;
   }
 }
 
@@ -94,7 +91,7 @@ body[dir="ltr"] .table2 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -105,7 +102,7 @@ body[dir="ltr"] .table2 {
 
   .table2 {
     td {
-      padding: 10px 2px !important;
+      padding: 10px !important;
     }
 
     tr td:nth-child(1),
@@ -178,7 +175,7 @@ body[dir="ltr"] .table2 {
     margin-top: 40px;
     width: 100%;
   }
-  .delet{
+  .delet {
     display: none;
   }
 }
@@ -228,7 +225,6 @@ table {
       letter-spacing: 1px;
       padding: 40px;
       width: 15%;
-      text-align: right;
     }
   }
   tr:last-child td {
@@ -239,14 +235,12 @@ table {
 body[dir="rtl"] .table3 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: right;
   }
 }
 
 body[dir="ltr"] .table3 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: left;
   }
 }
 
@@ -278,7 +272,7 @@ body[dir="ltr"] .table3 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -289,7 +283,7 @@ body[dir="ltr"] .table3 {
 
   .table3 {
     td {
-      padding: 10px 2px !important;
+      padding: 10px !important;
     }
 
     tr td:nth-child(1),
@@ -302,5 +296,14 @@ body[dir="ltr"] .table3 {
     tr th:nth-child(1) {
       padding: 10px !important;
     }
+  }
+}
+
+body[lang="en"] {
+  .title-and-cards .title-for-cards {
+    padding-right: 0px;
+    padding-left: 20px;
+    border-right: 0px solid #fcb44a;
+    border-left: 8px solid #fcb44a;
   }
 }

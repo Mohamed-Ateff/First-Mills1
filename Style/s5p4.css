@@ -75,13 +75,13 @@
   .two-titles {
     flex-direction: column;
   }
-  .two-titles p{
+  .two-titles p {
     width: 100% !important;
     margin-bottom: 10px;
   }
 
   .small-dis {
-    width: 100% ;
+    width: 100%;
     margin-top: 50px;
     text-align: justify;
     margin-bottom: 20px;
@@ -188,7 +188,7 @@ body[dir="ltr"] .table10 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -301,7 +301,7 @@ body[dir="ltr"] .table11 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -433,7 +433,7 @@ body[dir="ltr"] .table12 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -547,7 +547,7 @@ body[dir="ltr"] .table13 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -655,7 +655,7 @@ body[dir="ltr"] .table14 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -785,7 +785,7 @@ body[dir="ltr"] .table15 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -901,7 +901,7 @@ body[dir="ltr"] .table16 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -1011,7 +1011,7 @@ body[dir="ltr"] .table17 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -1121,7 +1121,7 @@ body[dir="ltr"] .table18 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 

@@ -100,7 +100,7 @@ body[dir="ltr"] .table36 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -224,7 +224,7 @@ body[dir="ltr"] .table37 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -246,14 +246,13 @@ body[dir="ltr"] .table37 {
   }
 }
 
-
-.tow-charts-two-col{
+.tow-charts-two-col {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.one-chart-two-col{
+.one-chart-two-col {
   width: 50%;
 }

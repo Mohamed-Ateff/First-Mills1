@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
-    .container{
-        overflow: hidden;
-    }
+  .container {
+    overflow: hidden;
+  }
 }
 .three-cards .container {
   display: flex;
@@ -214,7 +214,7 @@ body[dir="ltr"] .table1 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 

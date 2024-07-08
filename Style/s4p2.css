@@ -214,13 +214,13 @@
     width: 100% !important;
     font-size: 28px !important;
   }
-  .right-title p{
+  .right-title p {
     width: 100% !important;
   }
   #force {
     margin-right: 0px;
     font-size: 25px;
-    margin: 0px 0px 0px 0px  !important;
+    margin: 0px 0px 0px 0px !important;
     width: 100%;
   }
 }
@@ -360,7 +360,7 @@ body[dir="ltr"] .table4 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -492,7 +492,7 @@ body[dir="ltr"] .table5 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -623,7 +623,7 @@ body[dir="ltr"] .table6 {
     }
   }
   body {
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
