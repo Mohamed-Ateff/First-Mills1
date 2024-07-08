@@ -170,8 +170,18 @@
   margin-top: 10px;
 }
 .dev-for-img img {
-  width: 65%;
+  height: 100%;
+  width: 200px;
 }
+.img-for-dev2 {
+  width: 280px !important;
+}
+@media screen and (max-width: 768px) {
+  .img-for-dev2 {
+    width: 200px !important;
+  }
+}
+
 .card-from-eight h2 {
   margin-top: 30px;
   font-size: 25px;
