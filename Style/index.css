@@ -250,3 +250,10 @@ body[lang="en"] {
     margin-bottom: 15px;
   }
 }
+
+body[lang="en"] {
+  .Flex-text .circle {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
