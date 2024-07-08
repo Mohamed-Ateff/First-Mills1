@@ -55,7 +55,7 @@
   height: 120px;
   content: "";
   position: absolute;
-  top: -65%;
+  bottom: 106%;
   right: 45%;
   transform: translateX(-50%);
   background-color: #fcb44a;
@@ -123,16 +123,8 @@
   color: #163029;
 }
 .item1 {
-  background-color: #fcb44a;
-  color: #fff;
   order: 1;
   flex: 1 1 calc(40%);
-}
-.item1 h1 {
-  border-color: white;
-}
-.item1 h2 {
-  color: white;
 }
 .item2 {
   margin-right: 15px;
@@ -165,18 +157,10 @@
 }
 .item8 {
   margin-right: 15px;
-  background-color: #163029;
-  color: #fff;
   flex: 1 1 1 100%;
   order: 8;
 }
-.item8 h1 {
-  color: #fcb44a;
-  border-color: white;
-}
-.item8 h2 {
-  color: white;
-}
+
 
 @media (max-width: 768px) {
   .item {
