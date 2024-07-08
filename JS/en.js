@@ -17,21 +17,35 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  // Check localStorage for saved language preference
+  const savedLanguage = localStorage.getItem("preferredLanguage");
+  if (savedLanguage) {
+    setLanguage(savedLanguage);
+  }
+
   languageToggle.addEventListener("click", function () {
     if (body.classList.contains("english")) {
-      body.classList.remove("english");
-      languageToggle.textContent = "English";
-      body.setAttribute("lang", "ar");
-      body.setAttribute("dir", "rtl");
-      updateContent("ar");
+      setLanguage("ar");
     } else {
+      setLanguage("en");
+    }
+  });
+
+  function setLanguage(language) {
+    if (language === "en") {
       body.classList.add("english");
       languageToggle.textContent = "Arabic";
       body.setAttribute("lang", "en");
       body.setAttribute("dir", "ltr");
-      updateContent("en");
+    } else {
+      body.classList.remove("english");
+      languageToggle.textContent = "English";
+      body.setAttribute("lang", "ar");
+      body.setAttribute("dir", "rtl");
     }
-  });
+    updateContent(language);
+    localStorage.setItem("preferredLanguage", language);
+  }
 
   function updateContent(language) {
     contentElements.forEach((element) => {
