@@ -161,6 +161,15 @@
   order: 8;
 }
 
+body[lang="en"] {
+  .item h2 {
+    text-align: left;
+  }
+  .item8 {
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+}
 
 @media (max-width: 768px) {
   .item {
