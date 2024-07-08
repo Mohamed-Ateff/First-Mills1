@@ -18,7 +18,7 @@
   width: 100%;
 }
 .cards-2 .one-card-2 {
-  width: 100%;
+  width: 48%;
   padding-right: 30px;
   position: relative;
 }
@@ -33,7 +33,8 @@
 
 .line {
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0;
   width: 8px;
   height: 260px;

@@ -484,6 +484,7 @@ body[lang="en"] {
   width: 30%;
   padding-right: 30px;
   position: relative;
+
 }
 .cards-3 .one-card-3 h3 {
   color: #3a4944;
@@ -496,7 +497,8 @@ body[lang="en"] {
 
 .line {
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0;
   width: 8px;
   height: 260px;
