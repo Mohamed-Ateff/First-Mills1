@@ -243,6 +243,11 @@ body[lang="en"] {
 .map .container img {
   width: 650px;
 }
+
+.title-for-maps{
+  width: 100%;
+  margin-bottom: 15px;
+}
 .map-info {
   display: flex;
   justify-content: space-between;
