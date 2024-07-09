@@ -83,7 +83,7 @@ body[dir="ltr"] .table31 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {

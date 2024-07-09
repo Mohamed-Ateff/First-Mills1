@@ -177,7 +177,7 @@ body[dir="ltr"] .table10 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -290,7 +290,7 @@ body[dir="ltr"] .table11 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -422,7 +422,7 @@ body[dir="ltr"] .table12 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -536,7 +536,7 @@ body[dir="ltr"] .table13 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -644,7 +644,7 @@ body[dir="ltr"] .table14 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -774,7 +774,7 @@ body[dir="ltr"] .table15 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -890,7 +890,7 @@ body[dir="ltr"] .table16 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -1000,7 +1000,7 @@ body[dir="ltr"] .table17 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -1110,7 +1110,7 @@ body[dir="ltr"] .table18 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {

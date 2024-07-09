@@ -81,3 +81,13 @@
     display: none;
   }
 }
+body[lang="en"] {
+  .card .arrow-for-card {
+    left: unset;
+    right: -9%;
+    transform: rotate(180deg);
+  }
+  .rotate {
+    transform: rotate(0) !important;
+  }
+}

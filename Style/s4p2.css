@@ -281,15 +281,16 @@ table {
     text-align: center;
   }
 
-  td span {
+  td span:nth-child(2) {
     text-align: right;
     display: block;
     color: white;
     font-size: 14px;
     padding-top: 5px;
+    text-align: inherit;
   }
 
-  th {
+  th:not(:nth-child(1)) {
     text-align: center !important;
     font-weight: bold;
   }
@@ -297,7 +298,7 @@ table {
   tr {
     td:nth-child(1),
     th:nth-child(1) {
-      text-align: right !important;
+      text-align: right;
       color: #fcb44a;
       background-color: #163029;
       border: 0;
@@ -359,7 +360,7 @@ body[dir="ltr"] .table4 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -425,7 +426,7 @@ table {
     background-color: white;
   }
 
-  td span {
+  td span:nth-child(2) {
     display: block;
     color: white;
     font-size: 14px;
@@ -456,17 +457,21 @@ table {
   }
 }
 
+.align-text {
+  text-align: right;
+}
+
 body[dir="rtl"] .table5 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: right;
+    text-align: right !important;
   }
 }
 
 body[dir="ltr"] .table5 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: left;
+    text-align: left !important;
   }
 }
 
@@ -491,7 +496,7 @@ body[dir="ltr"] .table5 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -557,8 +562,7 @@ table {
     text-align: center;
   }
 
-  td span {
-    text-align: right;
+  td span:nth-child(2) {
     display: block;
     color: white;
     font-size: 14px;
@@ -622,7 +626,7 @@ body[dir="ltr"] .table6 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -653,5 +657,22 @@ body[dir="ltr"] .table6 {
     tr th:nth-child(1) {
       padding: 10px !important;
     }
+  }
+}
+body[lang="en"] {
+  .margin-right {
+    margin-right: 0;
+    margin-left: 28px;
+  }
+  .number-for-chart {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .number-and-title .number {
+    margin-left: 0;
+    margin-right: 25px;
+  }
+  .align-text {
+    text-align: left;
   }
 }

@@ -70,3 +70,12 @@
     padding-right: 10px;
   }
 }
+body[lang="en"] {
+  .circle {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .card-from-three {
+    text-align: left;
+  }
+}
