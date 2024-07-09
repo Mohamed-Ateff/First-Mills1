@@ -44,6 +44,37 @@
   color: #163029;
 }
 
+body[lang="en"] {
+  .box-1-three {
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+    background-color: #3a4944;
+    position: relative;
+    left: 55px;
+    right: 0px;
+  }
+  .box-2-three {
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    background-color: #fcb44a;
+    position: relative;
+  }
+  .box-3-three {
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+    position: relative;
+    right: 0px;
+    left: -55px;
+  }
+  @media (max-width: 768px) {
+    .box-1-three {
+      left: 25px;
+    }
+    .box-3-three {
+      position: relative;
+      left: -25px !important;
+      right: 0px !important;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .flex-middle .container3 {
     margin-bottom: 50px;

@@ -97,6 +97,13 @@
   margin-bottom: 0px;
 }
 
+body[lang="en"] {
+  .num-and-text .num {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   .pie {
     width: 100%;
