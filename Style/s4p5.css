@@ -26,7 +26,7 @@ table {
     background-color: white;
   }
 
-  td span {
+  td span:nth-child(2) {
     display: block;
     color: white;
     font-size: 14pt;
@@ -98,8 +98,8 @@ body[dir="ltr"] .table7 {
       font-size: 2vw !important;
       padding: 10px 7px;
     }
-    td span {
-      font-size: 1.7vw;
+    td span:nth-child(2) {
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {

@@ -122,7 +122,7 @@ body[dir="ltr"] .table20 {
       padding: 10px 7px;
     }
     td span {
-      font-size: 1.7vw;
+      font-size: 1.7vw !important;
       padding-top: 2px;
     }
     tr {
@@ -134,7 +134,7 @@ body[dir="ltr"] .table20 {
     tr:first-child {
       th {
         padding: 5px 20px;
-        font-size: 1.7vw !important;
+        font-size: 1.7vw !important ;
       }
     }
     tbody {
