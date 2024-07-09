@@ -24,6 +24,19 @@
   margin-left: 25px;
 }
 
+body[dir="ltr"] {
+  .title-for-a-one-table {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .title-for-a-one-table .number-for-table {
+    font-size: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    line-height: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .card-for-table {
     margin-bottom: 20px;
@@ -121,7 +134,17 @@ body[dir="rtl"] .table23 {
 }
 
 body[dir="ltr"] .table23 {
-  text-align: left;
+  text-align: left !important;
+}
+body[dir="ltr"] {
+  .table23 {
+    tr {
+      td,
+      th {
+        text-align: left;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
