@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.one-box h1{
+.one-box h1 {
   font-size: 40px;
   font-weight: 300;
 }
@@ -28,4 +28,10 @@
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+body[dir="ltr"] {
+  .donwload-pdf-home img {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
 }
