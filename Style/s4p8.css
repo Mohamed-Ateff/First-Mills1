@@ -219,3 +219,14 @@
 }
 
 /* Three cards End */
+
+body[lang="en"] {
+  .title-for-card-three::before {
+    right: unset;
+    left: -60px;
+  }
+  #width-for-card1 .card-from-theree-inside {
+    align-items: left !important;
+    text-align: left !important;
+  }
+}
