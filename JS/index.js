@@ -92,15 +92,15 @@ _gaq.push(["_trackPageview"]);
 })();
 
 document.addEventListener("DOMContentLoaded", function () {
-  const svg = document.querySelector(".ratio_evolution_svg");
-  const line = document.getElementById("ratio_evolution_line");
+  const svg = document.querySelector(".stock_performance_en_svg");
+  const lines = document.getElementsByClassName("stock_performance_en_line");
 
   function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      rect.bottom - 100 <=
+      rect.bottom - 200 <=
         (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
@@ -108,7 +108,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function onVisibilityChange() {
     if (isElementInViewport(svg)) {
-      line.classList.add("animated-path");
+      Array.from(lines).forEach((line) => {
+        line.classList.add("animated-path");
+      });
       window.removeEventListener("scroll", onVisibilityChange);
     }
   }
@@ -116,12 +118,9 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", onVisibilityChange);
   onVisibilityChange();
 });
-
 document.addEventListener("DOMContentLoaded", function () {
-  const svg = document.querySelector(".stock_performance_svg");
-  const lines = document.getElementsByClassName("stock_performance_line");
-  console.log(svg);
-  console.log(lines);
+  const svg = document.querySelector(".stock_performance_ar_svg");
+  const lines = document.getElementsByClassName("stock_performance_ar_line");
 
   function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
@@ -148,8 +147,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const svg = document.querySelector(".company_weight_svg");
-  const line = document.getElementById("company_weight_line");
+  const svg = document.querySelector(".company_weight_en_svg");
+  const line = document.getElementById("company_weight_en_line");
+
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom - 100 <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function onVisibilityChange() {
+    if (isElementInViewport(svg)) {
+      line.classList.add("animated-path2");
+      window.removeEventListener("scroll", onVisibilityChange);
+    }
+  }
+
+  window.addEventListener("scroll", onVisibilityChange);
+  onVisibilityChange();
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const svg = document.querySelector(".company_weight_ar_svg");
+  const line = document.getElementById("company_weight_ar_line");
 
   function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
@@ -174,8 +198,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // script.js
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const svg = document.querySelector(".ratio_evolution_ar_svg");

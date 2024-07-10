@@ -1,5 +1,3 @@
-.three-cards {
-}
 .title-fot-there-cards {
   text-align: right;
   display: flex;
@@ -1145,3 +1143,27 @@ body[dir="ltr"] .table18 {
 }
 
 /* End Of Nine Table Styles */
+
+body[lang="ar"] {
+  .ratio_evolution_en_svg {
+    display: none;
+  }
+  .company_weight_en_svg {
+    display: none;
+  }
+  .stock_performance_en_svg {
+    display: none;
+  }
+}
+
+body[lang="en"] {
+  .ratio_evolution_ar_svg {
+    display: none;
+  }
+  .company_weight_ar_svg {
+    display: none;
+  }
+  .stock_performance_ar_svg {
+    display: none;
+  }
+}
