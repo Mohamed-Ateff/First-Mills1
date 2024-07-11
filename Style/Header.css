@@ -388,6 +388,7 @@
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
+  margin: 0;
 }
 
 .toggle-btn:hover {
@@ -417,8 +418,8 @@ body[lang="en"] {
   }
   .navbar-nav > li {
     min-height: 105px !important;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
