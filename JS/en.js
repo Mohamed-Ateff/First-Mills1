@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function setLanguage(language) {
     if (language === "en") {
       body.classList.add("english");
-      languageToggle.textContent = "Arabic";
+      languageToggle.textContent = "عربي";
       body.setAttribute("lang", "en");
       body.setAttribute("dir", "ltr");
     } else {
