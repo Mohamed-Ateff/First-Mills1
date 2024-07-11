@@ -84,6 +84,26 @@
   margin-bottom: 23px;
 }
 
+body[dir="ltr"] {
+  .one-social-icons {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .flex-apps a {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .flex-apps a svg {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .info-contact .number-to-call p {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   .contact-form .container3 {
     flex-direction: column-reverse;
