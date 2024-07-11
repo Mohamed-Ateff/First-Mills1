@@ -64,6 +64,38 @@
   font-weight: 900;
 }
 
+body[lang="en"] {
+  .chart {
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    margin-left: 14%;
+  }
+  .progress-value {
+    justify-content: flex-start;
+  }
+  .progress-date {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  @media (max-width: 768px) {
+    .progress-date {
+      justify-content: center;
+      display: flex;
+      min-width: 110px !important;
+      text-align: left;
+      position: absolute;
+      left: -112px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      font-size: 8px;
+      font-weight: 900;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .progress-value {
     /* background-color: tomato; */
@@ -87,11 +119,5 @@
     position: absolute;
     left: -80px;
     font-size: 10px;
-  }
-}
-
-body[lang="en"] {
-  .chart {
-    /* align-items: center; */
   }
 }
