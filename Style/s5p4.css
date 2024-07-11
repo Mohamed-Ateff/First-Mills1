@@ -337,6 +337,7 @@ body[dir="ltr"] .table11 {
 .chart-container {
   text-align: center;
   margin: 50px auto;
+  width: 100%;
   overflow: hidden;
   
 }
