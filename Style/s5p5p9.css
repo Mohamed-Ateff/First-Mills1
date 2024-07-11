@@ -224,3 +224,13 @@
     font-size: 18px;
   }
 }
+body[lang="en"] {
+  .border-for-more-info-for-cv {
+    right: unset;
+    left: 0;
+  }
+  .toggle-button {
+    left: unset;
+    right: 6%;
+  }
+}
