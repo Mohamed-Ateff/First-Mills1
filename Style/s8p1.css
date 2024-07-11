@@ -85,7 +85,6 @@ input[type="checkbox"].custom-checkbox {
   background-color: #d9d9d9;
 }
 
-/* Add a custom checkmark */
 input[type="checkbox"].custom-checkbox:checked {
   appearance: auto;
 }
