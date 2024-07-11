@@ -69,6 +69,12 @@
   display: none;
 }
 
+body[dir="ltr"] {
+  .card {
+    min-height: 550px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;

@@ -38,6 +38,16 @@
   height: 260px;
 }
 
+body[dir="ltr"] {
+  .cards-2 .one-card-2 {
+    padding-right: 0px;
+    padding-left: 30px;
+  }
+  .line {
+    left: 0 !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .cards-2 {
     flex-flow: wrap;
@@ -326,9 +336,9 @@ body[dir="ltr"] .table11 {
 /* First Chart Styles */
 .chart-container {
   text-align: center;
-  width: 95%;
-  margin: 100px auto;
+  margin: 50px auto;
   overflow: hidden;
+  
 }
 
 @media (max-width: 768px) {
