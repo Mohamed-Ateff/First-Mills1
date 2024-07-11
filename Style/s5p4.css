@@ -326,7 +326,7 @@ body[dir="ltr"] .table11 {
 /* First Chart Styles */
 .chart-container {
   text-align: center;
-  width: 95%;
+  width: 100%;
   margin: 100px auto;
   overflow: hidden;
 }
