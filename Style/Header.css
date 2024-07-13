@@ -447,8 +447,16 @@ body[lang="en"] {
     .navbar-nav li:last-child {
       padding-right: 0;
     }
+    .navbar-nav > li {
+      min-height: fit-content !important;
+      padding-right: 0px;
+      padding-left: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+    }
   }
-
 
   @media screen and (max-width: 1530px) {
     .navbar-nav > li {
