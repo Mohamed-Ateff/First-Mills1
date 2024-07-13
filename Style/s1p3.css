@@ -99,6 +99,9 @@
 }
 
 body[lang="en"] {
+  .one-card-eight {
+    min-height: 340px;
+  }
   .left-card-eight {
     padding-right: 0;
     padding-left: 40px;

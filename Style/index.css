@@ -40,6 +40,12 @@ ul li {
   margin: auto;
 }
 
+body[lang="en"] {
+  .delete-for-english {
+    display: none;
+  } 
+}
+
 /* Title with icon */
 .title-with-icon {
   width: 100%;
