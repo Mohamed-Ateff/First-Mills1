@@ -1,0 +1,17 @@
+table {
+  text-align: center !important;
+}
+
+body[dir="rtl"] table {
+  th,
+  td {
+    text-align: center !important;
+  }
+}
+
+body[dir="ltr"] table {
+  th,
+  td {
+    text-align: center !important;
+  }
+}

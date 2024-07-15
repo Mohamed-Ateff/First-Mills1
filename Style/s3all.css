@@ -92,6 +92,11 @@
   height: 25px;
 }
 
+.text-for-page img:nth-of-type(2) {
+  margin-left: 0 !important;
+  margin-right: 7px !important;
+}
+
 body[lang="en"] {
   .text-for-page {
     direction: ltr;
@@ -188,7 +193,7 @@ body[lang="en"] {
 
 .flex-them {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
   width: 49%;
@@ -205,7 +210,7 @@ body[lang="en"] {
 
 .flex-them div h3 {
   color: #163029;
-  font-size: 22px;
+  font-size: 27px;
   width: 55%;
 }
 .flex-them div img {
@@ -214,6 +219,11 @@ body[lang="en"] {
   margin-left: 30px;
   position: relative;
   top: -3px;
+}
+
+.flex-them div img:nth-of-type(2) {
+  margin-left: 0px;
+  margin-right: 30px;
 }
 
 .arrow-style img {
@@ -241,6 +251,9 @@ body[lang="en"] {
 }
 
 @media screen and (max-width: 768px) {
+  .flex-them div h3 {
+    font-size: 22px;
+  }
   .flex-text-man .container {
     padding-top: 100px;
     padding-bottom: 50px;

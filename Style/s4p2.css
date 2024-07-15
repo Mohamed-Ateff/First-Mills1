@@ -464,14 +464,14 @@ table {
 body[dir="rtl"] .table5 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: right !important;
+    text-align: right;
   }
 }
 
 body[dir="ltr"] .table5 {
   th:nth-child(1),
   td:nth-child(1) {
-    text-align: left !important;
+    text-align: left;
   }
 }
 

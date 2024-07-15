@@ -109,6 +109,14 @@ body[dir="ltr"] .table20 {
   table {
     font-size: 2vw !important;
   }
+  tr {
+    td:nth-child(1),
+    th:nth-child(1),
+    td:nth-child(2),
+    th:nth-child(2) {
+      font-size: 2vw !important;
+    }
+  }
 
   .table20 {
     thead th {

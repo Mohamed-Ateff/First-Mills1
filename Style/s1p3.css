@@ -69,7 +69,7 @@
   height: 15px;
 }
 .quote p {
-  margin-right: 20px;
+  margin: 0 20px;
   color: #5e6863;
   font-size: 16px;
 }
@@ -105,10 +105,6 @@ body[lang="en"] {
   .left-card-eight {
     padding-right: 0;
     padding-left: 40px;
-  }
-  .quote p {
-    margin-right: 0;
-    margin-left: 20px;
   }
   .quote img {
     transform: scaleX(-1);

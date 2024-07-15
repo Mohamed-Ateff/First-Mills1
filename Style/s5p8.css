@@ -134,7 +134,7 @@ body[dir="rtl"] .table23 {
 }
 
 body[dir="ltr"] .table23 {
-  text-align: left !important;
+  text-align: left;
 }
 body[dir="ltr"] {
   .table23 {
