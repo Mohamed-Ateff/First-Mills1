@@ -319,7 +319,7 @@ body[lang="en"] {
     font-size: 20px;
     width: 100%;
   }
-  .delet{
+  .delet {
     display: none;
   }
   .map .container img {
@@ -598,5 +598,20 @@ body[lang="en"] {
   .cards-3 .one-card-3 {
     padding-right: 0;
     padding-left: 30px;
+  }
+}
+
+body[lang="en"] {
+  .buttons-home a {
+    justify-content: center;
+  }
+  .arabicVideo {
+    display: none;
+  }
+}
+
+body[lang="ar"] {
+  .englishVideo {
+    display: none;
   }
 }

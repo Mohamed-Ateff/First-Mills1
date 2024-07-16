@@ -35,12 +35,13 @@
   .black {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
   }
 
   .red {
     padding-right: 0%;
+    padding-left: 0% !important;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
@@ -235,21 +236,6 @@ body[lang="en"] {
   align-items: center;
 }
 
-body[lang="en"] {
-  .title-for-man {
-    padding-right: 0px;
-    padding-left: 50px;
-  }
-
-  .flex-them div img {
-    margin-left: 0px;
-    margin-right: 30px;
-    position: relative;
-    top: -3px;
-    transform: rotate(180deg);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .flex-them div h3 {
     font-size: 22px;
@@ -277,5 +263,53 @@ body[lang="en"] {
   }
   .arrow-style img {
     width: 100%;
+  }
+}
+
+body[lang="en"] {
+  .title-for-man {
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+
+  .flex-them div img {
+    margin-left: 0px;
+    margin-right: 30px;
+    position: relative;
+    top: -3px;
+    transform: rotate(180deg);
+  }
+  .container-man {
+    direction: rtl;
+    h1,
+    h2 {
+      text-align: left !important;
+    }
+    .photo-man {
+      right: unset;
+      left: 0;
+    }
+    img {
+      transform: scaleX(-1);
+    }
+    .tree-man {
+      margin-right: 0;
+      margin-left: 70px;
+    }
+    .imgs-for-page {
+      direction: ltr;
+    }
+    .red {
+      padding-right: 0;
+      padding-left: 9%;
+    }
+    .black {
+      padding-left: 0;
+      padding-right: 9%;
+    }
+    .banner-for-man .container {
+      padding-right: 0;
+      padding-left: 30px;
+    }
   }
 }

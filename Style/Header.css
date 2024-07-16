@@ -473,3 +473,9 @@ body[lang="en"] {
     }
   }
 }
+
+body[lang="en"] {
+  li .menu-link {
+    text-align: center;
+  }
+}
