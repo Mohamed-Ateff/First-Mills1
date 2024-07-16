@@ -365,9 +365,10 @@ body[lang="en"] {
   padding: 0px 20px;
   margin: 20px 0px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  min-height: 340px;
 }
 .border-right-and-left {
   border-right: 5px solid #f2f2f2;
@@ -394,11 +395,22 @@ body[lang="en"] {
 
 .text-logo {
   width: 60%;
-  margin: 25px 40px 25px 25px;
-  text-align: center;
+  /* background-color: red; */
+  margin: 25px 80px 25px 0px;
 }
 .text-logo p {
+  margin: auto;
+  text-align: center;
+  width: 100%;
   font-size: 17px;
+}
+
+body[lang="en"] {
+  .text-logo {
+    width: 60%;
+    /* background-color: red; */
+    margin: 25px 0px 25px 80px;
+  }
 }
 
 @media screen and (max-width: 768px) {
