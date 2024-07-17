@@ -43,7 +43,7 @@ ul li {
 body[lang="en"] {
   .delete-for-english {
     display: none;
-  } 
+  }
 }
 
 /* Title with icon */
@@ -89,7 +89,7 @@ body[lang="en"] {
   .title {
     width: 90%;
     font-weight: 100 !important;
-    margin: 30px auto;
+    margin: 30px auto !important;
     font-size: 28px;
     text-align: justify;
   }
@@ -140,7 +140,7 @@ body[lang="en"] {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 .Flex-text p {
   text-align: justify;
@@ -246,6 +246,10 @@ body[lang="en"] {
   margin-bottom: 40px;
 }
 
+.second-p-margin {
+  margin: 50px 0px !important;
+}
+
 @media (max-width: 768px) {
   .outer-title-chart {
     display: flex;
@@ -254,6 +258,10 @@ body[lang="en"] {
     flex-direction: column;
     margin-right: 0px !important;
     margin-bottom: 15px;
+  }
+  .second-p-margin {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
   }
 }
 

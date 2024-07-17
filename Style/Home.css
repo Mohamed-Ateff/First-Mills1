@@ -59,7 +59,7 @@
   padding: 15px 20px;
   border-radius: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin-left: 15px;
@@ -614,9 +614,6 @@ body[lang="en"] {
 }
 
 body[lang="en"] {
-  .buttons-home a {
-    justify-content: center;
-  }
   .arabicVideo {
     display: none;
   }

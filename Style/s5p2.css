@@ -80,3 +80,14 @@
     width: 90%;
   }
 }
+
+body[lang="en"] {
+  .align-text {
+    text-align: left;
+  }
+}
+body[lang="ar"] {
+  .align-text {
+    text-align: right;
+  }
+}
