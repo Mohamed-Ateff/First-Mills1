@@ -612,15 +612,3 @@ body[lang="en"] {
     padding-left: 30px;
   }
 }
-
-body[lang="en"] {
-  .arabicVideo {
-    display: none;
-  }
-}
-
-body[lang="ar"] {
-  .englishVideo {
-    display: none;
-  }
-}
