@@ -368,7 +368,7 @@ body[lang="en"] {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  min-height: 340px;
+  /* min-height: 340px; */
 }
 .border-right-and-left {
   border-right: 5px solid #f2f2f2;
@@ -482,6 +482,20 @@ body[lang="en"] {
   font-size: 19px;
   margin: 20px auto auto auto;
   width: 90%;
+}
+
+.text-with-border-right-for-special-one {
+  border-right: 6px solid #fcb44a;
+  padding-right: 30px;
+}
+
+body[lang="en"] {
+  .text-with-border-right-for-special-one {
+    border-right: 0px solid #fcb44a;
+    border-left: 6px solid #fcb44a;
+    padding-right: 0px;
+    padding-left: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
