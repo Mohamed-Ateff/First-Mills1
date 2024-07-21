@@ -140,7 +140,7 @@ body[lang="en"] {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 .Flex-text p {
   text-align: justify;
