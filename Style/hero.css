@@ -28,12 +28,13 @@
   color: white;
   font-weight: 300 !important;
   font-size: 33px;
+  text-align: center;
 }
 
 .text-box-hero h1 {
   color: white;
   font-weight: 700 !important;
-  font-size: 85px;
+  font-size: 65px;
   margin-top: 10px;
   text-align: center;
 }

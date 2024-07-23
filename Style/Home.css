@@ -249,7 +249,7 @@ body[lang="en"] {
 }
 
 .title-for-maps {
-  width: 40%;
+  width: 50%;
   margin-bottom: 15px;
 }
 .map-info {
@@ -309,7 +309,7 @@ body[lang="en"] {
 
 body[lang="en"] {
   .more-info-map h3 {
-    font-size: 19px;
+    font-size: 17px;
     margin: 0px 0px;
   }
 }
