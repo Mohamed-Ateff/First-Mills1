@@ -43,8 +43,8 @@ table {
   }
   .header-for-table td {
     border: 0 !important;
-    color: #163029;
-    background-color: #fcb44a;
+    background-color: #76777b;
+    color: #fcb44a;
     font-weight: 700;
   }
   .no-border {

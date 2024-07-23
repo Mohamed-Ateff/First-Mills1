@@ -133,6 +133,14 @@ body[lang="en"] {
   position: absolute;
 }
 
+.align-center {
+  display: flex;
+  align-items: center;
+  p {
+    margin-bottom: 10px !important;
+  }
+}
+
 body[lang="en"] {
   .text-with-border-right {
     padding-right: 0px;

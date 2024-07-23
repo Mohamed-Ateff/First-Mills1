@@ -54,8 +54,8 @@ table {
   tr {
     td:nth-child(6),
     th:nth-child(6) {
-      background-color: #fcb44a;
-      color: #163029;
+      background-color: #76777b;
+      color: #fcb44a;
       border-bottom: 0;
     }
   }

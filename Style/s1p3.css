@@ -73,6 +73,9 @@
   color: #5e6863;
   font-size: 16px;
 }
+.quote img:nth-of-type(2) {
+  transform: scaleX(-1);
+}
 .title-under-cards {
   font-size: 23px;
 }
@@ -108,5 +111,8 @@ body[lang="en"] {
   }
   .quote img {
     transform: scaleX(-1);
+  }
+  .quote img:nth-of-type(2) {
+    transform: scaleX(1);
   }
 }

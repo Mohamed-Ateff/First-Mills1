@@ -49,8 +49,8 @@ table {
 
   tr:last-child {
     td {
-      background-color: #fcb44a;
-      color: #163029;
+      background-color: #76777b;
+      color: #fcb44a;
       border-bottom: 0;
     }
     td:nth-child(1) {

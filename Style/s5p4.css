@@ -254,8 +254,8 @@ body[dir="ltr"] .table10 {
   }
   tr:last-child {
     td {
-      background-color: #fcb44a;
-      color: #163029;
+      background-color: #76777b;
+      color: #fcb44a;
     }
   }
   tr:last-child td {
@@ -339,7 +339,6 @@ body[dir="ltr"] .table11 {
   margin: 50px auto;
   width: 100%;
   overflow: hidden;
-  
 }
 
 @media (max-width: 768px) {
@@ -501,8 +500,8 @@ body[dir="ltr"] .table12 {
   }
   tr:last-child {
     td {
-      background-color: #fcb44a;
-      color: #163029;
+      background-color: #76777b;
+      color: #fcb44a;
     }
   }
   tr:last-child td {
@@ -1176,5 +1175,8 @@ body[lang="en"] {
   }
   .stock_performance_ar_svg {
     display: none;
+  }
+  .no-margin-top-en {
+    margin-top: 0;
   }
 }
