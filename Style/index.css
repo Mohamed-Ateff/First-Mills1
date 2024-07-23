@@ -15,6 +15,14 @@ body {
 body[lang="en"] {
   font-family: "MyFont-english2" !important;
 }
+button {
+  font-family: "MyFont" !important;
+}
+body[lang="en"] {
+  button {
+    font-family: "MyFont-english2" !important;
+  }
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -93,7 +101,6 @@ body[lang="en"] {
   font-size: 37px;
   /* background-color: red; */
   text-align: justify;
-
 }
 
 @media screen and (max-width: 768px) {

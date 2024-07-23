@@ -111,6 +111,14 @@
 .flex-num-and-text h1 {
   color: #fcb44a;
   font-size: 55px;
+  margin-left: 5px;
+}
+body[lang="en"] {
+  .flex-num-and-text h1 {
+    margin-left: 0px;
+    margin-right: 5px;
+    font-size: 45px;
+  }
 }
 
 .diss-for-cards {
@@ -118,6 +126,21 @@
   color: #3a4944;
   font-size: 25px;
 }
+body[lang="en"] {
+  .diss-for-cards {
+    font-size: 20px;
+  }
+  #diss-for-cards-s {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .diss-for-cards {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
 .flex-h-cards {
   display: flex;
   margin-top: 30px;
