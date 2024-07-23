@@ -306,7 +306,7 @@
   .navbar-nav {
     background-color: blue;
     overflow-y: auto;
-    height: 87vh !important;
+    height: 150vh !important;
   }
   .navbar-brand {
     margin-right: 15px;
@@ -375,7 +375,6 @@
 }
 
 @media screen and (max-width: 1535px) {
-
   .navbar-nav > li {
     padding-right: 12px;
     padding-left: 12px;
@@ -466,8 +465,6 @@ body[lang="en"] {
       flex-direction: column;
     }
   }
-
-
 
   @media screen and (max-width: 1530px) {
     .navbar-nav > li {
