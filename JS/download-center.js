@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
       downloadFiles(["/pdfs/Full Report.pdf"]);
     } else {
       console.log("inside arabic full report");
-      downloadFiles(["/pdfs/التقرير كامل.pdf"]);
+      downloadFiles(["/pdfs/Full Report_Arabic.pdf"]);
     }
   });
 
