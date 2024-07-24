@@ -169,6 +169,9 @@ body[lang="en"] {
     margin-right: 0px;
     margin-left: 15px;
   }
+  .item h2 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {

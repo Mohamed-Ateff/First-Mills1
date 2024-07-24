@@ -16,6 +16,11 @@
   min-height: 505px;
   padding: 65px 50px;
 }
+body[dir="ltr"] {
+  .three-cards .container .one-card-from-three {
+    min-height: 530px;
+  }
+}
 .three-cards .container .one-card-from-three img {
   width: 85px;
   height: 85px;
