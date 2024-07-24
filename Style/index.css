@@ -306,3 +306,15 @@ body[lang="en"] {
     display: none;
   }
 }
+
+/*  */
+
+.arrow-for-tables {
+  width: 25px;
+}
+
+@media (max-width: 768px) {
+  .arrow-for-tables {
+    width: 10px;
+  }
+}
