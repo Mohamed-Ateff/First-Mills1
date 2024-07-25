@@ -88,7 +88,7 @@
 }
 
 .text-for-page img {
-  margin-left: 7px !important;
+  margin-left: 4px !important;
   width: 30px;
   height: 25px;
 }
@@ -96,6 +96,9 @@
 .text-for-page img:nth-of-type(2) {
   margin-left: 0 !important;
   margin-right: 7px !important;
+  position: relative;
+  top: 4px;
+  transform: rotate(-180deg);
 }
 
 body[lang="en"] {
@@ -109,8 +112,22 @@ body[lang="en"] {
 
   .text-for-page img {
     margin-left: 0px !important;
-    margin-right: 7px !important;
+    margin-right: 4px !important;
     transform: rotate(180deg);
+  }
+
+  .text-for-page p img:nth-of-type(2) {
+    margin-left: 7 !important;
+    margin-right: 0px !important;
+    transform: rotate(0deg);
+  }
+}
+
+body[lang="en"] {
+  .flex-them div img:nth-of-type(2) {
+    margin-left: 30px;
+    margin-right: 0px;
+    transform: rotate(0deg);
   }
 }
 
