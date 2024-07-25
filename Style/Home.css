@@ -368,7 +368,9 @@ body[lang="en"] {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  /* min-height: 340px; */
+}
+.custom-height {
+  min-height: 340px !important;
 }
 .border-right-and-left {
   border-right: 5px solid #f2f2f2;
@@ -414,6 +416,9 @@ body[lang="en"] {
 }
 
 @media screen and (max-width: 768px) {
+  .custom-height {
+    min-height: 0 !important;
+  }
   .nine-logos .container .card-logos {
     width: 100%;
   }
