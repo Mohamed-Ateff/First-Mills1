@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .title-with-icon img {
+    display: none;
+  }
+}

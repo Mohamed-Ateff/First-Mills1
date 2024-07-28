@@ -97,6 +97,24 @@
   margin-bottom: 0px;
 }
 
+@media (max-width: 768px) {
+  .pie-chart-diff-style .container {
+    flex-direction: column !important;
+    .text-for-pie {
+      width: 100%;
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+  .goals .container {
+    flex-direction: column !important;
+    .goal-card {
+      width: 100%;
+    }
+  }
+}
+
 body[lang="en"] {
   .num-and-text .num {
     margin-left: 0px;
@@ -104,31 +122,32 @@ body[lang="en"] {
   }
   .goal-card::before {
     left: 0%;
-}
+  }
 
-@media (max-width: 768px) {
-  .pie {
-    width: 100%;
+  @media (max-width: 768px) {
+    .pie {
+      width: 100%;
+    }
+    .text-for-pie {
+      margin-top: 40px;
+      width: 100%;
+    }
+    .goal-card {
+      width: 100%;
+      padding: 40px;
+    }
   }
-  .text-for-pie {
-    margin-top: 40px;
-    width: 100%;
+  .chart-container {
+    text-align: center;
+    width: 95%;
+    margin: 100px auto;
+    overflow: hidden;
   }
-  .goal-card {
-    width: 100%;
-    padding: 40px;
+  .hidden {
+    opacity: 0;
   }
-}
-.chart-container {
-  text-align: center;
-  width: 95%;
-  margin: 100px auto;
-  overflow: hidden;
-}
-.hidden {
-  opacity: 0;
-}
-.visible {
-  opacity: 1;
-  transition: opacity 1s ease-in-out;
+  .visible {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
 }

@@ -74,7 +74,7 @@
   font-size: 16px;
 }
 .quote img:nth-of-type(2) {
-  transform: scaleX(-1);
+  transform: rotate(-180deg);
 }
 .title-under-cards {
   font-size: 23px;
@@ -110,9 +110,9 @@ body[lang="en"] {
     padding-left: 40px;
   }
   .quote img {
-    transform: scaleX(-1);
+    transform: rotate(-180deg);
   }
   .quote img:nth-of-type(2) {
-    transform: scaleX(1);
+    transform: rotate(0deg);
   }
 }

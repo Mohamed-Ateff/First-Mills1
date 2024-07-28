@@ -37,6 +37,9 @@
   margin-left: 20px;
   height: 45px;
   margin-top: 20px;
+  i {
+    color: black !important;
+  }
 }
 .navbar-toggler:hover {
   opacity: 0.7;
@@ -306,7 +309,7 @@
   .navbar-nav {
     background-color: blue;
     overflow-y: auto;
-    height: 150vh !important;
+    height: 91vh !important;
   }
   .navbar-brand {
     margin-right: 15px;

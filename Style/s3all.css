@@ -314,8 +314,10 @@ body[lang="en"] {
       right: unset;
       left: 0;
     }
-    img {
-      transform: scaleX(-1);
+    .red {
+      img {
+        transform: scaleX(-1);
+      }
     }
     .tree-man {
       margin-right: 0;
