@@ -88,7 +88,7 @@ body[lang="en"] {
   .title-with-icon img {
     margin-right: 20px;
     margin-left: 0px;
-  }
+  } 
 }
 
 /* Title with icon Ends */
@@ -291,21 +291,21 @@ body[lang="en"] {
   }
 }
 
-body[lang="ar"] {
-  .english-item {
-    display: none;
+  body[lang="ar"] {
+    .english-item {
+      display: none;
+    }
   }
-}
 
-body[lang="en"] {
-  .Flex-text .circle {
-    margin-left: 0;
-    margin-right: 10px;
+  body[lang="en"] {
+    .Flex-text .circle {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+    .arabic-item {
+      display: none;
+    }
   }
-  .arabic-item {
-    display: none;
-  }
-}
 
 /*  */
 
